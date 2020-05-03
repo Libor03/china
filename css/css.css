@@ -1,0 +1,27 @@
+h4{
+    background-color: red;
+    color:yellow;
+    height: 50px;
+    padding: 10px;
+}
+
+.pocet{         
+    background-color: olive;
+    height: 800px;
+    width: 350px;
+}
+#navigace{
+   background-color: yellow;
+}
+
+thead{
+    background-color: teal;
+    color: white;
+}
+
+h3{
+    color: red;
+
+}
+
+
