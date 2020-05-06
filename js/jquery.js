@@ -47,4 +47,25 @@ $("#jmeno4").on("click", function(){
 
 
 
+ 
+    
+
+
+    setInterval(function()
+    {
+          let foto = Math.ceil(Math.random()*3);
+          
+
+
+$("#fotecky1").attr("src", "img/rotace/"+foto+".jpg")
+foto++;
+$("#fotecky2").attr("src", "img/rotace/"+foto+".jpg");
+foto++;
+$("#fotecky3").attr("src", "img/rotace/"+foto+".jpg");
+if (foto = 6){
+    foto=1;
+}
+        }, 5000);
+
+    
 
