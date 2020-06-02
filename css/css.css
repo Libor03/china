@@ -8,6 +8,10 @@ h1{
    padding-top: 150px;
    font-size: 100px;
 }
+#money{
+    width: 350px;
+    height: 300px;
+}
 header{
     background-image: url(../img/stena.jpg);
     background-position: center;
