@@ -4,13 +4,27 @@ h4{
     height: 50px;
     padding: 10px;
 }
+h1{
+   padding-top: 150px;
+   font-size: 100px;
+}
+header{
+    background-image: url(../img/stena.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+    position: relative;
 
+}
 .pocet{         
     background-color: olive;
     height: 800px;
     width: 350px;
 }
 #navigace{
+    margin-top: 300px;
    background-color: yellow;
 }
 

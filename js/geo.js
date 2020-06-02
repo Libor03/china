@@ -120,7 +120,9 @@ let mesta = [{
     "city": "Ürümqi",
     "peoples": 1664897,
     "sign": "kunfuc.jpg",
-    "text": "Xinjiang"
+    "text": "Urumči, coby hlavní a největší město provincie Xinjiang (Sin-ťiang), není z historického hlediska příliš významným místem. Bývalo dříve spíše malým městečkem, které se po dostavění železnice z Pekingu v r. 1963 stalo moderním průmyslovým městem převážně s hanským (chan) obyvatelstvem, a příliš se neliší od měst na východě Číny. Město je nicméně zajímavé spíše svou polohou, nejen proto, že se nachází nedaleko krásných hor Bogdafeng, ale hlavně tím, že si nárokuje prvenství jako „město nejdále vzdálené od moře“. Uvádí se, že nejbližší vzdálenost Urumči k moři činí 2250 km. I přes poměrně moderní centrum města zde nalezneme množství ujgurských tržišť a restaurací s typickým místním jídlem."
+    
+    
 },
 {
     "id": "xining",
@@ -160,8 +162,8 @@ let mesta = [{
     "sign": "",
     "text": "Beijing"
 },{
-    "id": "guangzhou",
-    "city": "Guangzhou",
+    "id": "chongqing",
+    "city": "Chongqing",
     "peoples": 28846170,
     "sign": "",
     "text": "Chongqing"
@@ -343,7 +345,9 @@ $(function(){
                 /* odsazení okénka vůči pravé hraně objektu - v ose y a x */
                 'offset': '10%, -100',
                 /* do titulku okénka vloží text, který je pro daný SVG prvek obsažen v tagu title */
+               
                 'title': $(this).find('title').text()
+
             });            
         }
     });
@@ -367,7 +371,7 @@ $(function(){
         /* s využitím metody find se do proměnné mesto vyhledá v JSON poli mesta objekt podle odpovídajícího id */
         let mesto = mesta.find(item => {return item.id == id});
         /* během efektu zprůhlednění (1 s.) se pomocí callback funkce vyplní blok #info příslušnými daty o vybraném městě  */
-        $('#info').fadeOut(1000, function() {$('#info').html(`<div class="col-12"><h2 class="bg-primary"> ${mesto.city} <small class="text-small">${new Intl.NumberFormat('cs-CS').format(mesto.peoples)} obv.</small></h2></div><div class="col-2"><img src="img/${mesto.sign}" class="img-fluid"></div><div class="col-10">${mesto.text}</div>`)});
+        $('#info').fadeOut(1000, function() {$('#info').html(`<div class="col-12"><h2 class="bg-primary"> ${mesto.city} <small class="text-small">${new Intl.NumberFormat('cs-CS').format(mesto.peoples)} obyvatel</small></h2></div><div class="col-2"><img src="img/${mesto.sign}" class="img-fluid"></div><div class="col-10">${mesto.text}</div>`)});
         $('#info').fadeIn(1000);
     });  
     
