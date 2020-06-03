@@ -385,7 +385,7 @@ $(function(){
         /* s využitím metody find se do proměnné mesto vyhledá v JSON poli mesta objekt podle odpovídajícího id */
         let mesto = mesta.find(item => {return item.id == id});
         /* během efektu zprůhlednění (1 s.) se pomocí callback funkce vyplní blok #info příslušnými daty o vybraném městě  */
-        $('#info').fadeOut(1000, function() {$('#info').html(`<div class="col-12"><h2 class="bg-primary"> ${mesto.city} <small class="text-small">${new Intl.NumberFormat('cs-CS').format(mesto.peoples)} obyvatel</small></h2></div><div class="col-2"><img src="img/${mesto.sign}" class="img-fluid"></div><div class="col-10">${mesto.text}</div>`)});
+        $('#info').fadeOut(1000, function() {$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-primary"> ${mesto.city} <small class="text-small">${new Intl.NumberFormat('cs-CS').format(mesto.peoples)} obyvatel</small></h2></div><div class="col-2"><img src="img/${mesto.sign}" class="img-fluid"></div><div class="col-10">${mesto.text}</div>`)});
         $('#info').fadeIn(1000);
     });  
     
@@ -397,7 +397,7 @@ $(function(){
         $("#mapicka circle").css('fill','red');
         $(this).css('fill','yellow');
         let pamatka = unesco.find(item => {return item.id == id});
-        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v unesco je od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
+        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v unesco je od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
         $('#info').slideDown(1000);
     });   
 
