@@ -7,10 +7,20 @@ h4{
 h1{
    padding-top: 150px;
    font-size: 100px;
+   color: blue;
+   
 }
+h2{
+    color: white;
+}
+
 #money{
     width: 350px;
     height: 300px;
+}
+.pictogram{
+    width: 32px;
+    height: 32px;
 }
 header{
     background-image: url(../img/stena.jpg);

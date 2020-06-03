@@ -119,7 +119,7 @@ let mesta = [{
     "id": "ürümqi",
     "city": "Ürümqi",
     "peoples": 1664897,
-    "sign": "kunfuc.jpg",
+    "sign": "mqi.jpg",
     "text": "Urumči, coby hlavní a největší město provincie Xinjiang (Sin-ťiang), není z historického hlediska příliš významným místem. Bývalo dříve spíše malým městečkem, které se po dostavění železnice z Pekingu v r. 1963 stalo moderním průmyslovým městem převážně s hanským (chan) obyvatelstvem, a příliš se neliší od měst na východě Číny. Město je nicméně zajímavé spíše svou polohou, nejen proto, že se nachází nedaleko krásných hor Bogdafeng, ale hlavně tím, že si nárokuje prvenství jako „město nejdále vzdálené od moře“. Uvádí se, že nejbližší vzdálenost Urumči k moři činí 2250 km. I přes poměrně moderní centrum města zde nalezneme množství ujgurských tržišť a restaurací s typickým místním jídlem."
     
     
@@ -135,8 +135,8 @@ let mesta = [{
     "id": "lhasa",
     "city": "Lhasa",
     "peoples": 3145000,
-    "sign": "",
-    "text": "Xizang"
+    "sign": "vlak.jpg",
+    "text": "Hlavní město Tibetské autonomní oblasti leží ve vysoké nadmořské výšce na řece Kjičchu, přítoku Brahmaputry, a má kolem půl milionu obyvatel, z nichž v dnešní době už asi jen třetinu tvoří Tibeťané. Asi 100 km na jihovýchod od Lhasy, v údolí Brahmaputry v oblasti zvané Gonkhar, se nachází stejnojmenné letiště sloužící dnes jako hlavní vstupní brána do Tibetu. Vlakem do Tibetu v červenci 2006 byla také dokončena vysokohorská železnice spojující Lhasu s 1142 km vzdáleným městem Golmud v provincii Qinghai (Čching-chaj). Tibet se tak stal poslední „provincií“, do níž byl v Číně zaveden vlak. Železnice se honosí několika nej a je skutečným zázrakem moderní techniky. Nalézá se na ní 675 mostů v celkové délce 160 km. Téměř polovina trasy vede po věčně zmrzlé půdě (permafrost) a více než 80 % trati bylo vybudováno v nadmořské výšce přes 4000 m. Na trase se nachází nejvýše položený železniční tunel na světě (4905 m) a průsmyk Tangu ve výšce 5072 m je vůbec nejvýše položeným železničním bodem na světě."
 },{
     "id": "guangzhou",
     "city": "Guangzhou",
@@ -194,19 +194,21 @@ let mesta = [{
 }
 ];
 
-/*let unesco = [
+let unesco = [
 {
-    "id": "lednice",
-    "locality": "Lednicko-valtický areál",
-    "year": 1996,
-    "photo": "lednice.jpg",
-    "description": "Současnou podobu dala zámku novogotická přestavba ve stylu tudorské gotiky z let 1846-1858, jejímž autorem byl Jiří Wingelmüller. Část barokního zdiva sice zůstala zachována, ale nový vzhled fasády byl doplněn o řadu přístaveb a nových prvků, jako jsou cimbuří, balkóny, arkýře, komíny a věžičky. Romantický novogotický vzhled získaly také interiéry s vynikajícími ukázkami bohaté řezbářské výzdoby. Za pozornost stojí vřetenové schodiště v knihovně, kazetový strop z lipového dřeva v modrém sále, reliéf stromu života ze slonové kosti či mramorové krby.",
-    "url": "https://www.unesco-czech.cz/lednicko-valticky-areal/predstaveni/#page_start"
+    "id": "komplex",
+    "locality": "Pohoří Wudang",
+    "vznik": "7. století",
+    "unes": 1994,
+    "photo": "budovy.jpg",
+    "description": "Paláce a chrámy, které tvoří jádro této skupiny světských a náboženských budov, jsou příkladem architektonických a uměleckých úspěchů čínských dynastií Yuan, Ming a Qing. Nachází se v malebných údolích a na úbočí pohoří Wudang v provincii Hubei. Místo, které bylo postaveno jako organizovaný komplex za dynastie Ming (14. – 17. Století), obsahuje taoistické budovy z počátku 7. století. Představuje nejvyšší standardy čínského umění a architektury za období téměř 1 000 let.",
+    "url": "http://whc.unesco.org/en/list/705"
 },
 {
     "id": "kromeriz",
     "locality": "Kroměříž: Arcibiskupský zámek a zahrady",
-    "year": 1998,
+    "vznik": 1998,
+    "unes": 1994,
     "photo": "kromeriz.jpg",
     "description": "Vznik a vývoj zámku je nerozlučně spjat s historií olomouckého biskupství, arcibiskupství a poddanské obce olomouckých biskupů. Interiéry zámku jsou bohatě zdobeny a vybaveny množstvím původního dobového zařízení. Za povšimnutí stojí Trůnní, Sněmovní a Manský sál, Lovecká síň, Carský salon, stará knihovna a letní byt. Obrazárna uchovává díla předních evropských malířů 15.-18. století (Tizian, Lucas Cranach st., Hans von Aachen, Paolo Veronese či Jan Breughel st.). Takzvaná Podzámecká zahrada byla původně jakousi zásobní zelinářskou a květinovou zahradou. V průběhu 17. století byla přeměněna na barokní zahradu a stala se jakýmsi plynulým pokračováním zámku. Devatenácté století proměnilo tuto  zahradu na stylový krajinářský park o rozloze 64 hektarů. Geometricky pravidelná je Květná zahrada s uměle navršenými jahodovými kopečky, čtvercovým i kulatým bludištěm a  stěnami stříhaných stromů a keřů. Za pozornost stojí Lví kašna a kašna Tritonů.",
     "url": "https://www.unesco-czech.cz/kromeriz/predstaveni/#page_start"
@@ -214,7 +216,8 @@ let mesta = [{
 {
     "id": "tugendhat",
     "locality": "Brno: Vila Tugendhat",
-    "year": 2001,
+    "vznik": 2001,
+    "unes": 1994,
     "photo": "tugendhat.jpg",
     "description": "Vila Tugendhat byla postavena v letech 1929-1930 pro manžele Tugendhatovy v Brně - Černých Polích. Projektováním domu byl pověřen jeden z nejvýznamnějších evropských architektů té doby Ludwig Mies van der Rohe. Architekt rozvrhl vilu do tří úrovní. Hlavní podlaží rozčlenil na vstupní, společenskou, pracovní a jídelní část. V suterénu byla prádelna, sklady, fotokomora a kotelna. Horní podlaží mělo obytný charakter, tj. byly zde ložnice, pokoje dětí a chůvy. Také zahrada byla součástí architektonického návrhu. V roce 1938 manželé Tugendhatovi emigrovali do švýcarského St. Gallen. Během války byl dům zabaven gestapem a při osvobozování Brna byl poničen. Provedené opravy a nevhodné úpravy se architektonické podstaty stavby naštěstí nedotkly. Dnes je přístupná veřejnosti jako muzeum.",
     "url": "https://www.unesco-czech.cz/brno/predstaveni/#page_start"
@@ -222,7 +225,8 @@ let mesta = [{
 {
     "id": "zelena-hora",
     "locality": "Poutní kostel sv. Jana Nepomuckého na Zelené hoře",
-    "year": 1994,
+    "vznik": 1994,
+    "unes": 1994,
     "photo": "zelena-hora.jpg",
     "description": "Poutní kostel sv. Jana Nepomuckého byl založen počátkem 18. století. Je jedním z nejlepších projektů architekta Jana Blažeje Santiniho-Aichla (1677-1723) a zároveň nejoriginálnějším příkladem takzvané barokní gotiky. Kostel obklopuje ambit, který je s centrální stavbou kompozičně propojen. Celkově nevelký centrální kostel se vymyká jakémukoliv popisu. Jeho tvary dané komplikovanými průniky šesti kružnic ve tvaru pěticípé hvězdy spolu s virtuózní hrou světel a stínů v interiéru, tvarová osobitost a čistota exteriéru, to vše je dostatečným důvodem k jeho návštěvě.",
     "url": "https://www.unesco-czech.cz/zdar-nad-sazavou/predstaveni/#page_start"
@@ -230,7 +234,8 @@ let mesta = [{
 {
     "id": "morovy-sloup",
     "locality": "Sloup Nejsvětější Trojice v Olomouci",
-    "year": 2000,
+    "vznik": 2000,
+    "unes": 1994,
     "photo": "olomouc.webp",
     "description": "Budování morových sloupů odstartoval Tridentský koncil, který tak dal období baroka jeden z výrazných rysů. Vzorem byl sloup na Piazza Santa Maria Maggiore v Římě, vztyčený roku 1614. Dobou svého vzniku v letech 1716-1754 patří olomoucký monument až k posledním příkladům této módní vlny. Ale svou výtvarnou koncepcí, bohatstvím figurální výzdoby a konečně i rozměry a výškou (35 m) se od všech podobných památek výrazně odlišuje. Sloup se po svém dokončení stal pro obyvatele města zdrojem nesmírné hrdosti, protože všichni, kdo se na jeho stavbě podíleli, byli občany Olomouce. Jeho vysvěcení 9. září se osobně účastnil tehdejší první pár monarchie, císařovna Marie Terezie se svým manželem Františkem I. Štěpánem Lotrinským.",
     "url": "https://www.unesco-czech.cz/olomouc/predstaveni/#page_start"
@@ -238,7 +243,8 @@ let mesta = [{
 {
     "id": "litomysl",
     "locality": "Litomyšl: Zámek a zámecký areál",
-    "year": 1999,
+    "vznik": 1999,
+    "unes": 1994,
     "photo": "litomysl.jpg",
     "description": "Renesanční zámek z druhé poloviny 16. století je významným dokladem arkádového zámku italského typu. Přes úpravy interiéru, především na konci 18. století, si stále uchoval téměř nedotčený vzhled z dob renesance, včetně unikátní sgrafitové výzdoby fasád a štítů. Dochovaly se také mnohé hospodářské budovy a zámecká zahrada. Zápisem tohoto komplexu na seznam UNESCO mu byl přiznán i jeho světově výjimečný význam. Ve své unikátně dochované celistvosti je dokonalou ukázkou umělecky cenné architektury. Je skvělým dokladem středoevropské šlechtické residence z období renesance, která si uchovala svou jedinečnost i po následných přeměnách ve stylu nových uměleckých směrů.",
     "url": "https://www.unesco-czech.cz/litomysl/predstaveni/#page_start"
@@ -246,7 +252,8 @@ let mesta = [{
 {
     "id": "trebic",
     "locality": "Bazilika sv. Prokopa a židovská čtvrť",
-    "year": 2003,
+    "vznik": 2003,
+    "unes": 1994,
     "photo": "trebic.jpg",
     "description": "Původně byla bazilika sv. Prokopa zasvěcena Panně Marii, ale kvůli celkové devastaci během mnoha válek byl objekt více jak 200 let užíván výhradně ke světským účelům. Po obnově byla bazilika zasvěcena sv. Prokopovi a opět využívána církví. K nejcennějším částem baziliky patří krypta s původní, více než 700 let starou výdřevou stropu. Současnou podobu interiéru baziliky vytvořil Kamil Hilbert v letech 1924-1935. Třebíč kdysi patřila k významným střediskům židovské kultury na Moravě a unikátně zachovaná židovská čtvrť je němým svědectvím soužití Židů a křesťanů. Židovská čtvrť s hustou zástavbou zahrnuje více jak 120 obytných domů, které doplňují objekty bývalých židovských institucí - radnice, školy, rabinátu a chudobince. Zadní synagoga navíc nabízí ve své expozici dobové informace o historii židovské čtvrti. Přední synagoga dnes slouží jako modlitebna Československé církve husitské. Původní židovský hřbitov byl v 17. století přemístěn na severní svah kopce Hrádek, kde je dnes k vidění kolem 3 000 kamenných náhrobků, z nichž nejstarší pochází z roku 1631. Součástí hřbitova je také obřadní síň z roku 1903 s unikátně dochovaným interiérem, kde se dodnes  mohou provádět pohřební obřady podle starých židovských tradic.",
     "url": "https://www.unesco-czech.cz/trebic/predstaveni/#page_start"
@@ -254,7 +261,8 @@ let mesta = [{
 {
     "id": "telc",
     "locality": "Telč: Historické centrum",
-    "year": 1992,
+    "vznik": 1992,
+    "unes": 1994,
     "photo": "telc.jpg",
     "description": "Historické jádro města, uzavřené rybníky a branami, si udrželo po celá staletí svou osobitou tvář z časů Zachariáše z Hradce. Předně je to původní královská vodní tvrz z 13. století, založená na křižovatce obchodních cest, která získala, spolu s historickým jádrem města, svou dnešní podobu díky přestavbě ze 16. století. Rozsáhlý renesanční zámecký komplex pochází z dílny architekta B. Maggiho z Arogna. K zámku ještě přiléhá zajímavě dispozičně řešená zahrada s parkem. Uvnitř  zámku jistě každého zaujmou honosné interiéry s jedinečnou výzdobou, dobovým zařízením a cennými sbírkami. V bývalém purkrabství je dnes muzeum s etnografickými sbírkami a expozicí o historii města. Kromě zámku patří mezi nejvýznačnější telčské památky také náměstí s unikátním nenarušeným komplexem historických domů v renesančním a barokním stylu. Podloubí a průčelí těchto domů byla v drtivé většině stavěna podle jednotného plánu.",
     "url": "https://www.unesco-czech.cz/telc/predstaveni/#page_start"
@@ -262,7 +270,8 @@ let mesta = [{
 {
     "id": "holasovice",
     "locality": "Holašovice - areál vesnice",
-    "year": 1998,
+    "vznik": 1998,
+    "unes": 1994,
     "photo": "holasovice.jpg",
     "description": "Vesnice leží asi 16 km západně od Českých Budějovic. Na Seznam UNESCO byl zapsán téměř zcela dochovaný středověký systém obytných domů a sýpek. Ty jsou propojeny ohradními zdmi s brankami a klenutými vjezdy do prostoru návsi, což spolu s dochovaným štukovým dekorem (tzv. lidové nebo selské baroko) na většině průčelí dává celému sídlu neopakovatelnou atmosféru a výraz. Komplex uvedený v Seznamu čítá 23 památkově chráněných usedlostí s celkem 120 budovami. Najdeme zde nejen výstavné statky se špýchary, stodolami, maštalemi a výměnky, ale také kovárnu, hostinec a kapličku. Usedlosti jsou rozloženy po obvodu rozlehlé obdélníkové návsi (210x70 m). K unikátním patří například studny s dřevěnou pístovou pumpou nebo Selský dvůr č. p. 6, který je rodinným selským sídlem již od roku 1530.",
     "url": "https://www.unesco-czech.cz/holasovice/predstaveni/#page_start"
@@ -270,7 +279,8 @@ let mesta = [{
 {
     "id": "cesky-krumlov",
     "locality": "Státní hrad a zámek Český Krumlov",
-    "year": 1992,
+    "vznik": 1992,
+    "unes": 1994,
     "photo": "cesky-krumlov.jpg",
     "description": "Historické jádro města, uzavřené rybníky a branami, si udrželo po celá staletí svou osobitou tvář z časů Zachariáše z Hradce. Předně je to původní královská vodní tvrz z 13. století, založená na křižovatce obchodních cest, která získala, spolu s historickým jádrem města, svou dnešní podobu díky přestavbě ze 16. století. Rozsáhlý renesanční zámecký komplex pochází z dílny architekta B. Maggiho z Arogna. K zámku ještě přiléhá zajímavě dispozičně řešená zahrada s parkem. Uvnitř  zámku jistě každého zaujmou honosné interiéry s jedinečnou výzdobou, dobovým zařízením a cennými sbírkami. V bývalém purkrabství je dnes muzeum s etnografickými sbírkami a expozicí o historii města. Kromě zámku patří mezi nejvýznačnější telčské památky také náměstí s unikátním nenarušeným komplexem historických domů v renesančním a barokním stylu. Podloubí a průčelí těchto domů byla v drtivé většině stavěna podle jednotného plánu.",
     "url": "https://www.unesco-czech.cz/cesky-krumlov/predstaveni/#page_start"
@@ -278,7 +288,8 @@ let mesta = [{
 {
     "id": "kutna-hora",
     "locality": "Historické jádro Kutné Hory s chrámem sv. Barbory a katedrálou Nanebevzetí Panny Marie v Sedlci",
-    "year": 1995,
+    "vznik": 1995,
+    "unes": 1994,
     "photo": "kutna-hora.jpg",
     "description": "Historické jádro Kutné Hory s pozdně gotickým chrámem svaté Barbory a kostelem Nanebevzetí Panny Marie v Sedlci představuje jedinečně dochovanou středověkou urbanistickou strukturu s řadou gotických, renesančních a barokních domů. K dalším významným památkám patří také Vlašský dvůr, pozdně gotický měšťanský Kamenný dům, kostel sv. Jakuba, Jezuitská kolej nebo klášter řádu sv. Voršily. Díky patriotismu místních občanů a také v důsledku zápisu některých částí města do kulturního a přírodního dědictví UNESCO bylo v uplynulých deseti letech opraveno mnoho domů historického jádra, byla zahájena celková rekonstrukce chrámu sv. Barbory a komplexní rekonstrukcí prochází i katedrála Nanebevzetí Panny Marie v Sedlci stejně jako areál Jezuitské koleje. Můžeme říci, že pro tyto památky, které jsou odkazem našich předků, udělalo město mnohé a mnohé ještě hodlá udělat. Cílem je zvelebit i další části města, které budou vkladem příštím generacím.",
     "url": "https://www.unesco-czech.cz/kutna-hora/predstaveni/#page_start"
@@ -286,7 +297,8 @@ let mesta = [{
 {
     "id": "kladruby",
     "locality": "Kladruby nad Labem: Krajina pro chov koní v Kladrubech",
-    "year": 2019,
+    "vznik": 2019,
+    "unes": 1994,
     "photo": "kladruby.jpg",
     "description": "Kulturní krajina zahrnuje nejen hřebčín, ale okolní pastviny včetně uměle zbudovaných vodních kanálů a přímých komunikací lemovanými alejemi. Krajina je vynikajícím spojením díla přírody a člověka v zachovalé předindustriální podobě a reprezentuje významný fenomén lidské civilizace, kterým byl po staletí specializovaným chov ceremoniálních, reprezentativních koní. Hřebčín po staletí slouží k chovu tzv. starokladrubských běloušů, kteří představují celosvětově unikátní podobu barokního koně, který se nevyskytuje v žádném dalším hřebčíně světa.",
     "url": "https://www.unesco-czech.cz/kladruby-nad-labem/predstaveni/#page_start"
@@ -294,7 +306,8 @@ let mesta = [{
 {
     "id": "praha-unesco",
     "locality": "Praha - historické centrum",
-    "year": 1992,
+    "vznik": 1992,
+    "unes": 1994,
     "photo": "praha.webp",
     "description": "Praha je nejvýznamnější městskou památkovou rezervací u nás. Historické jádro o rozloze 866 hektarů zahrnuje unikátní urbanistický celek Pražského hradu a Hradčan, Malé Strany včetně Karlova mostu, Starého Města s Josefovem (dochovaná část bývalého Židovského Města), Nového Města, Vyšehradu i jejich jednotlivé památky. Rozsáhle založené Nové Město v návaznosti na pozdější přestavby v nových stavebních slozích svědčí o umělecko-společenském a kulturním vlivu Prahy od středověku do současnosti.",
     "url": "https://www.unesco-czech.cz/praha/predstaveni/#page_start"
@@ -302,12 +315,13 @@ let mesta = [{
 {
     "id": "krusnohori",
     "locality": "Hornický region Erzgebirge / Krušnohoří",
-    "year": 2019,
+    "vznik": 2019,
+    "unes": 1994,
     "photo": "krusnohori.webp",
     "description": "Díky více než 800 letům téměř soustavné těžby a zpracování rud vznikla v Krušných horách jedinečná hornická krajina s unikátními montánními památkami v nadzemí i podzemí a s hustou sítí horních měst. Dokládá obrovský vliv, který měla těžba a zpracování rud na obou stranách pohoří na rozvoj hornictví a hutnictví po celém světě, konkrétně přínosem světově významných vynálezů a inovací v oblasti báňských a hutních technologií. Na české straně se jedná o hornické krajiny Jáchymov, Abertamy – Boží Dar – Horní Blatná, Krupka, Mědník a Rudou věž smrti.",
     "url": "https://www.unesco-czech.cz/krusnohori/predstaveni/#page_start"
 }
-];*/
+];
 
 /* jQuery skript */
 $(function(){
@@ -377,14 +391,14 @@ $(function(){
     
     /* Při kliknutí na některý z SVG objektů typu circle (kruhy - tj. památky UNESCO) se obdobným způsobem zobrazí 
        podrobnější informace o vybrané památce */
-    /*$("#mapicka circle").on('click', function(){
+    $("#mapicka circle").on('click', function(){
         let id = $(this).attr('id');
         $("#mapicka rect").css('fill','black');
         $("#mapicka circle").css('fill','red');
         $(this).css('fill','yellow');
         let pamatka = unesco.find(item => {return item.id == id});
-        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 class="bg-info">${pamatka.locality} <small class="text-small">(od roku ${pamatka.year})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank" class="btn btn-info">Podrobnosti</a></p></div>`)});
+        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v unesco je od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
         $('#info').slideDown(1000);
-    });*/    
+    });   
 
 });
