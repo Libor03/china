@@ -1,135 +1,127 @@
 /* Data ve formě polí JS objektů (JSON) */
-let mesta = [{
-    "id": "da Nang",
-    "city": "Da Nang",
-    "peoples": 1000,
-    "sign": "",
-    "text": "piaw"
-
-},
+let mesta = [
 {
     "id": "charbin",
     "city": "Charbin",
     "peoples": 38312224,
-    "sign": "",
-    "text": "asfawfawf"
+    "sign": "harb.jpg",
+    "text": "Charbin je hlavní město nejsevernější provincie Heilongjiang (Chej-lung-ťiang) nazvané podle řeky, která obtéká její severní hranici a zároveň tvoří hranici Číny s Ruskem (Heilongjiang – řeka Černého draka – Amur). Z malého rybářského městečka ztraceného v bažinách při řece Sungari se Charbin stal důležitým správním centrem čínského severovýchodu až na sklonku 19. století v souvislosti se stavbou Východočínské železnice – součásti Transsibiřské magistrály spojující centrální Rusko s Přímořím. Východočínská železnice byla stavěna jako společný rusko-čínský podnik na území, jež bylo vyňato zpod pravomoci čínských (tehdy mandžuských) úřadů. Většina odborného personálu, sloužícího jak při stavbě, tak při provozu železnice, byli Rusové. Proto měl Charbin od počátku více ruský než čínský charakter. Nejdůležitějším bodem na železnici se stal ze dvou důvodů: Jednak zde bylo třeba překročit veletok Sungari (v této souvislosti je zajímavé, že jak první, tak druhý most přes Sungari postavily české firmy), jednak zde začíná odbočka, která spojuje hlavní trať s nezamrzajícími přístavy na poloostrově Liaodong (Liao-tung)."
     },
 {
     "id": "hohhnot",
     "city": "Hohhnot",
     "peoples": 24706321,
-    "sign": "",
-    "text": "aaaaaaaaaaaaaaaaaaa"
+    "sign": "hohh.jpg",
+    "text": "Chöch chot (mongolsky Chöch chot v mongolštině, Хөх хот [Chöch chot], čínsky 呼和浩特, pchin-jin Hohhot, Hūhéhàotè, český přepis Chu-che-chao-tche) neboli „Modré město“, je městská prefektura a hlavní město Vnitřního Mongolska, autonomní oblasti Čínské lidové republiky. V roce 2004 mělo Chöch chot přibližně 1 520 000 obyvatel.  Chöch chot leží ve středu jižní části Vnitřního Mongolska. Obklopují jej „Velké zelené hory“. Město leží na železniční trati Peking – Pao-tchou. Železnice spojuje Chöch chot i s Ulán chotem, Šilin chotem a Chajlarem. U města leží mezinárodní letiště (kód IATA HET), s pravidelnými lety do Ulánbátaru ve Státě Mongolsko. V Chöch chotu je několik univerzit a museum Vnitřního Mongolska. Většina obyvatel jsou Číňané. Mongolové tvoří jen okolo 10% populace. Žijí zde i Chuejové, Mandžuové a Korejci."
 },
 {
     "id": "čchang-čchun",
     "city": "Čchang-čchun",
     "peoples": 27462297,
-    "sign": "",
-    "text": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    "sign": "chang.jpg",
+    "text": "Čchang-čchun (čínsky pchin-jinem Chángchūn, znaky zjednodušené 长春, tradiční 長春) je subprovinční město v severovýchodní části Čínské lidové republiky, hlavní a největší město provincie Ťi-lin. Jedná se o důležité průmyslové a dopravní centrum a o rozlehlé moderní město s širokými třídami. V současné době v samotném městě bydlí 3 581 000 obyvatel, v metropolitní oblasti kolem něho poté asi 7,5 mil. ob. Sídlí zde Ťilinská univerzita a několik dalších vysokých škol."
 },
 {
     "id": "chang-čou",
     "city": "Chang-čou",
     "peoples": 54426891,
-    "sign": "",
-    "text": "qqqqqqqqqqqq"
+    "sign": "chansou.jpg",
+    "text": "V nebi je ráj a na zemi je Hangzhou (Chang-čou) a Suzhou(Su-čou), tvrdí staré čínské přísloví. Marco Polo navštívil Hangzhou při své cestě ve 13. století, kdy mělo údajně téměř 2 miliony obyvatel, a popisuje je jako jedno z nekrásnějších měst na světě. I když se od té doby samozřejmě dost změnilo, spousta ze starých krás městu stále zůstala...Hangzhou - loďky na Západním jezeřeHangzhou, hlavní město provincie Zhejiang (Č’-ťiang), se nachází asi 180 km na jih od Šanghaje, v oblasti protkané jezery a kanály, a samotné centrum města tvoří rozlehlá vodní plocha – jezero Xihu (Si-chu) – Západní jezero. Je přibližně 3 km dlouhé a necelé 3 km široké a jeho břehy jsou posety nesčetnými altány a pavilony. Jezero je také překlenuto dvěma hrázemi pro pěší a lze se po nich dostat na některé z ostrůvků na jezeře. Na jiné si lze naopak udělat příjemnou vyjížďku lodí. Zejména za úplňku v době svátku Středu podzimu (15. den 8. měsíce podle čínského lunárního kalendáře), svátku rodiny, je oblast jezera vyhledávaným místem mladých párů, které si užívají soukromé vyjížďky ve dvou. Jezero bylo v červnu 2011 připsáno na seznam UNESCO.Plantáže Longjing, HangzhouK dalším velkým zajímavostem města patří zejména rozsáhlý klášter Lingyin Si (Ling-jin S’) – klášter Odpočinku duše, původně ze 4. století, kdy v něm žilo až 3000 mnichů. Za návštěvu stojí určitě také 60 m vysoká pagoda Šesti harmonií, která měla mít údajně ochrannou moc před povodněmi na řece Qian­tang (Čchien-tchang), na jejímž břehu stojí. Znalci čaje určitě neopomenou navštívit nedaleké čajové plantáže, na kterých se rodí jeden z nejlepších a nejznámějších čínských čajů Longjing (Lung-ťing) – Dračí studna."
 },
 {
     "id": "shanghai",
     "city": "Shanghai",
     "peoples": 24281400,
-    "sign": "",
-    "text": "asfawfawqdvdy"
+    "sign": "shank.jpg",
+    "text": "Šanghaj je se svým počtem obyvatel největším městem Číny (nepočítáme-li Čunking). Rozkládá se na východním pobřeží Číny, na jih od delty Dlouhé řeky. Strategickou hodnotu tohoto prostoru objevili až Evropané, do jejichž příchodu v polovině 19. století byla Šanghaj bezvýznamným městečkem. Britové, Američané a Francouzi zde zbudovali nejvýznamnější hospodářské centrum ve východní Asii. Tím Šanghaj zůstala až do začátku čínsko-japonské války v r. 1937. Skládala se z francouzské koncese a z tzv. mezinárodního settlementu (vznikl spojením anglické a americké koncese). Kolem těchto čtvrtí, zbudovaných v koloniálním stylu, se rozkládalo chaotické čínské město, z velké části sestávající z chatrčí a provizorních příbytků, ve kterých žila chudina dohnaná do Šanghaje ze svých bídných domovů, rozvrácených živelnými pohromami a válkami. Tito lidé se stali směšně levnou pracovní silou v továrnách provozovaných zahraničními majiteli. Koncentrace průmyslového proletariátu způsobila, že Šanghaj se stala přístupnou agitacím nositelů hnutí za sociální, ale i národní osvobození a dějištěm mnoha protestních akcí, jako např. bojkotu japonského zboží, generálních stávek apod. Tím se atmosféra v Šanghaji podstatně odlišovala od atmosféry ostatních oblastí Číny.Agitátoři za sociální a národní osvobození také připravili v r. 1927 půdu pro příchod Národní revoluční armády vedené stranou Kuomintang. Ten se však v této kritické chvíli rozštěpil na levé a pravé křídlo. Převahu získalo pravé křídlo v čele s vrchním velitelem armády Čankajškem, jenž se spolčil se šanghajským podsvětím a s jeho pomocí odborové předáky, kteří ho přivítali jako osvoboditele, fyzicky zlikvidoval. Za vlády Kuomintangu se Šanghaj stala městem ovládaným tzv. zeleným gangem, jehož bohatství i politická moc pocházely z prodeje opia a z provozování nevěstinců. Stala se rájem Číňanů, kteří napodobovali život cizinců v tom nejhorším vydání, ale i různých pochybných existencí, jež se sem stahovaly z celého světa."
 },
 {
     "id": "nanking",
     "city": "Nanking",
     "peoples": 78659903,
-    "sign": "",
-    "text": "qqqweqwe"
+    "sign": "nanjing.png",
+    "text": "Nanking (zvuk výslovnost, čínsky pinyin Nánjīng, znaky zjednodušené 南京, česky Nan-ťing) je hlavní město čínské provincie Ťiang-su. Svou historií a kulturou patří mezi význačná čínská města. Během několika historických období sloužilo jako hlavní město Číny. Město leží na dolním toku Jang-c’-ťiang. Žije v něm více než osm milionů lidí. Díky umístění v oblasti říční delty řeky Jang-c’ získal Nanking prominentní místo v historii a kultuře Číny, sloužil jako hlavní město různých čínských dynastií, království a vlád od starověku až po moderní dobu. A tak se stal po dlouhou dobu také hlavním centrem kultury, vzdělávání, výzkumu, politiky, ekonomiky, dopravních sítí a cestovního ruchu, který je dnes také největším vnitrozemským přístavem v Číně a zároveň jedním z největších na světě. Nanking se může mimo jiné pochlubit i mnoha vysoce kvalitními univerzitami a výzkumnými ústavy, které zde mají dlouhou historii."
 },
 {
     "id": "nan-čchang",
     "city": "Nan-čchang",
     "peoples": 44567475,
-    "sign": "",
-    "text": "Jiangxi"
+    "sign": "nunchack.jpg",
+    "text": "Nan-čchang (čínsky znaky klasické 南昌, pinyin Nánchāng) je městská prefektura a hlavní město provincie Ťiang-si Čínské lidové republiky. Leží na severu centrální části provincie. Omezené na západě horami Ťiou-ling, na východě jezerem Pcho-jang je slavné pro svou bohatou historii a kulturu.Díky své poloze mezi deltou Dlouhé a Perlové řeky (Jang-c’-ťiang a Ču-ťiang) je Nan-čchang důležitým železničním uzlem. Prochází přes něj vysokorychlostní trať Šanghaj – Kchun-ming a železniční trať Peking – Kowloon a začínají zde vysokorychlostní trať Siang-tchang – Pchu-tchien a vysokorychlostní trať Nan-čchang – Ťiou-ťiang.Hlavním letiště pro Nan-čchang je mezinárodní letiště Nan-čchang Čchang-pej, které leží přibližně osmadvacet kilometrů severně od města.Město Nan-čchang má na svém území 11 škol a institutů vysokoškolského typu, mezinárodní vysokou školu (anglicky Nanchang International School) a mnoho středních škol.Ve městě i v okolí města se nachází několik historických i přírodních nádherných památek:Pavilon prince Tenga - postavený v roce 653 n. l. pro vládce dynastie Tchangjezero Pcho-jangPark liduStar of Nanchang - místní ruské kolo, které bylo mezi lety 2006 - 2008 nejvyšším ruským kolem na světěnáměstí Čchiu-šuej - největší náměstí se zpívající fontánou v Asii"
 },
 {
     "id": "tianjin",
     "city": "Tianjin",
     "peoples": 13245000,
-    "sign": "",
-    "text": "Tianjin"
+    "sign": "tian.jpg",
+    "text": "Tchien-ťin (čínsky: 天津, zvuk výslovnost; hanyu pinyin: Tiānjīn; české exonymum: Tiencin) je přímo spravované město na úrovni provincie ležící na severu Číny. Leží při ústí Chaj-che do Pochajské zátoky. Název města se skládá ze slov 天 tchien, což znamená „nebe“, a 津 ťin s významem „převoz, brod“. Celý název lze přeložit jako „Nebeský/Císařský brod“. V roce 2013 mělo město Tchien-ťin 14,72 milionu obyvatel. Jak počtem obyvatel tak svou rozlohou 11 920 km² se řadí mezi největší města v Číně. Hustota osídlení dosahuje 1 235 lidí na km². Tchien-ťin hraničí na severozápadě s centrálně spravovaným městem Pekingem, na severu a jihu pak s provincií Che-pej. Na východě jeho pobřeží omývá Pochajská zátoka. Hlavním letištěm je mezinárodní letiště Tchien-ťin Pin-chaj, vzdálené přibližně 13 kilometrů východně od centra města. Jsou zde dvě železniční stanice vysokorychlostní trati Peking – Šanghaj. Nachází se zde také důležitý kontejnerový přístav. Po dopravu cestujících ve městě samotném slouží tchienťinské metro otevřené v roce 1984, které mělo k roku 2016 pět linek."
 },
 {
     "id": "ťi-nan",
     "city": "Ťi-nan",
     "peoples": 99470000,
-    "sign": "",
-    "text": "Shandong"
+    "sign": "jinan.png",
+    "text": "Ťi-nan (čínsky 济南, pchin-jinem Jǐnán) je subprovinční město v Čínské lidové republice. Je hlavním městem provincie Šan-tung ležící ve východní Číně, má rozlohu 8117 čtverečních kilometrů a necelých sedm miliónů obyvatel. Současné jméno Ťi-nan znamená doslova „na jih od Ťi“ a odkazuje tak na řeku Ťi, která až do poloviny 19. století protékala severně od města. V roce 1852 změnila Žlutá řeka svůj tok a řeku Ťi pohltila. Ťi-nan leží na severozápadě Šan-tungu, ve vzdálenosti 400 kilometrů na jih od Pekingu. Vyplňuje zhruba prostor mezi předhůřím Tchaj-šanu na jihu a údolím Žluté řeky na severu. Krasové zvodně v místním vápenci zde daly vzniknout mnoha artéským studním. Ťi-nan hraničí na jihozápadě s Liao-čchengem, na severozápadě s Te-čou, na severovýchodě s Pin-čou, na východě s C'-po, na jihovýchodě s Laj-wu a na jihu s Tchaj-anem. Je zde železniční stanice na vysokorychlostní trati Peking – Šanghaj. Hlavním ťinanským letištěm je mezinárodní letiště Ťi-nan Jao-čchiang ležící zhruba třicet kilometrů severovýchodně od centra. V Ťi-nanu se nachází šest z kampusů Šantungské univerzity, jedné z největších univerzit v Čínské lidové republice."
 },
 {
     "id": "šen-jang",
     "city": "Šen-jang",
     "peoples": 43746323,
-    "sign": "",
-    "text": "Liaoning"
+    "sign": "sen.jpg",
+    "text": "Šen-jang (čínsky tradičně 瀋陽, zjednodušeně 沈阳, pinyin Shěnyáng, doslovně „Město na sever od řeky Šen“; mandžusky Mukden, Mukden1.png) je subprovinční město a hlavní město čínské provincie Liao-ning. Je jedním z významných čínských měst, žije v něm přes 5 miliónů lidí, v celé aglomeraci kolem 7,4 miliónů lidí. Město se rozkládá na obou březích řeky Chun-che (čínsky tradičně 渾河, zjednodušeně 浑河, pinyin Hún​hé​). Šen-jang je průmyslové středisko severovýchodní Číny, mnoho staletí má značný ekonomický i vojensko-strategický význam (Šen-jangský vojenský okruh je podle vojenského potenciálu třetí v ČLR) a bohatou historii. Pod jménem Chou-čcheng je znám od 2. století př. n. l. (tedy od dob dynastie Chan). Název města je odvozen od řeky Chun (TZ: 渾河, ZZ: 浑河, pinyin: Húnhé), která se dříve nazývala Šen (TZ: 瀋水, ZZ: 沈水, pinyin: Shěnshuǐ). Území dnešního Šen-jangu bylo osídleno už v neolitu zhruba v době před 7200 lety kulturou Sin-le (TZ: 新樂, pinyin: Xīnlè). Při vykopávkách byla objevena i dřevořezba ptáka, která je jednou z nejstarších dřevořezeb na světě. Během rusko-japonské války zde v roce 1905 proběhla Bitva u Mukdenu, ve které padlo okolo 25 000 vojáků."
 },
 {
     "id": "čeng-čou",
     "city": "Čeng-čou",
     "peoples": 95320000,
-    "sign": "",
-    "text": "Henan"
+    "sign": "zheng.png",
+    "text": "Čeng-čou (čínsky pchin-jinem Zhèngzhōu, znaky 郑州) je hlavním městem čínské provincie Che-nan a po Wu-chanu nejlidnatější město ve střední Číně. Čeng-čou je městská prefektura, která slouží jako politické, ekonomické, technologické a vzdělávací centrum provincie. Centrum města leží na jižním břehu Žluté řeky a od roku 2004 patří mezi osm starobylých čínských hlavních měst. Do prefektury Čeng-čou patří i okres Teng-feng, kde se nachází řada náboženských a vědeckých památek souhrnně zařazená do světového dědictví UNESCO jako Historické památky Teng-fengu. Čeng-čou je dopravním uzlem ve střední Číně. Jeho hlavním letištěm je mezinárodní letiště Čeng-čou Sin-čeng jižně od města. Město je železničním uzlem. Od severu k jihu jím prochází železniční trať Peking – Kanton a od východu k západu železniční trať Lien-jün-kang – Lan-čou. Ve stejném směru vedou i vysokorychlostní trať Peking – Hongkong a vysokorychlostní trať Sü-čou – Sin-ťiang."
 },
 {
     "id": "wu-chan",
     "city": "Wu-chan",
     "peoples": 58160000,
-    "sign": "",
-    "text": "Hubei"
+    "sign": "wuhan.png",
+    "text": "Wu-chan (čínsky pchin-jinem Wǔhàn, znaky zjednodušené 武汉, tradiční 武漢, audio: zvuk 武漢/Wu-chan) je hlavní město čínské provincie Chu-pej a nejlidnatější město ve střední Číně. Město vzniklo spojením tři měst v roce 1927, dnes má rozlohu 8467,11 km² a žije zde 6,7 milionu obyvatel, v metropolitní oblasti 10,2 milionu.Město se nachází u soutoku řek Jang-c’-ťiang a Chan-ťiang. Jedná se o konglomeraci tří původních měst, kterými byly Wu-čchang, Chan-kchou a Chan-jang, a současný Wu-chan je tedy známý jako dopravní tepna devíti provincií. Je hlavní dopravní tepnou s desítkami železničních tepen, silnic a dálnic, které procházejí městem. V současnosti je Wu-chan uznáván jako politické, ekonomické, finanční, kulturní, vzdělávací a dopravní centrum centrální Číny. Roku 2004 ve Wu-chanu, jako šestém čínském městě, zahájilo provoz metro. Sídlí zde Wuchanská univerzita."
 },
 {
     "id": "taiyuan",
     "city": "Taiyuan",
     "peoples": 36500000,
-    "sign": "",
-    "text": "Shanxi"
+    "sign": "taiyu.png",
+    "text": "Taiyuan ( Číňan : 太原 ; pinyin : Tchaj-jüan [tʰâi.ɥɛ̌n] , také známý jako Bing ( 并 ) Jinyang ( 晋阳 ) ) je kapitál a největší město Shanxi provincii, Čínská lidová republika . Je to jedna z hlavních výrobních základen v Číně. Skrz jeho dlouhou historii, Taiyuan byl kapitál nebo prozatímní kapitál mnoha dynastií v Číně, proto jméno Lóngchéng ( 龙城 ; Dragon City ). Taiyuan se nachází zhruba v centru Shanxi, řeka Fen protéká centrálním městem. Dva čínské znaky názvu města jsou 太 ( tài , „great“) a 原 ( yuán , „plain“), odkazující na místo, kde řeka Fen opouští hory a vstupuje do relativně ploché roviny. Po celou dobu své dlouhé historie, město mělo různá jména, včetně Bingzhou ( 并州 ) (od kterého město je zkrácený název pro jednoho znaku Bing ( 并 ) je odvozen), Jinyang ( 晋阳 ) a Longcheng ( 龙城 ). [ Editovat ] Taiyuan byl také známý jako „Yangku“ (阳曲 ), protože krajské město Taiyuan bylo v dynastii Qing nazýváno Yangku ( 阳曲 县 ). Během dynastie Tang a následujících Pět dynastií byl status města Taiyuan povýšen na Severní hlavní město, odtud název Běidū ( 北 都 ) a Běijīng ( 北京 , odlišné od dnešního Pekingu ). Taiyuan je starobylé město s více než 2500 lety městské historie, pocházející z roku 497 př. Nl. To byl kapitál nebo sekundární kapitál ( 陪都 , 别都 ) o Zhao , bývalý Qin , východní Wei , Northern Qi , severní Jin , později Tang , Later Jin , později Han , severní Han . Díky své strategické poloze a bohaté historii je Taiyuan jedním z hospodářských, politických, vojenských a kulturních center severní Číny."
 },{
     "id": "si-an",
     "city": "Si-an",
     "peoples": 37327378,
-    "sign": "",
-    "text": "Shaanxi"
+    "sign": "sian.jpg",
+    "text": "Xi’an je hlavní město provincie Shanxi (Šen-si). Leží ve střední Číně v oblasti kolem řeky Wei (Wej; přítok Žluté řeky), která je považována za kolébku čínské civilizace. Kraj byl osídlen již v neolitu. Již byla řeč o rekonstruované vesnici Banpo (Pan-pcho), odtud pocházely kmeny Zhou (Čou), které rozvrátily v 11. století př.n.l. dynastii Shang (Šang) a na dlouhá staletí se staly dominantní silou tehdejšího čínského světa. Nedaleko dnešního Xi’anu se též nacházelo hlavní město dynastie Qin (Čchin) – Xianyang (Sian-jang). Xi’an je díky své bohaté historii město nabité památkami. Nepřehlédnutelné jsou monumentální 14 km dlouhé a 15 m vysoké hradby. Centrem starého města, obehnaného hradbami, je Zvonová věž postavená koncem 14. století. Nedaleko se nachází Věž bubnu, kolem které se rozkládá muslimská čtvrť s pitoreskními bazary a uličkami. Uprostřed muslimské čtvrti se ukrývá jedna z nejstarších mešit v Číně – Velká mešita, jejíž architektura je významně poznamenána čínským vlivem, který se vypořádal i s typickým muslimským minaretem."
 },{
     "id": "yinchuan",
     "city": "Yinchuan",
     "peoples": 6639973,
-    "sign": "",
-    "text": "Ningxia"
+    "sign": "yinchuan.jpg",
+    "text": "Jako provinční hlavní město Ningxia Hui Autonomous Region, Yinchuan je slavné historické a kulturní město Číny, které bylo kdysi hlavním městem dynastie Xixia (historie 1038-1227) a je to hospodářské, politické, finanční a vojenské centrum Ningxie. Yinchuan je známý jako hojné místo za hranicí (Velká zeď) jižních oblastí řeky Yangtze s pohořím Helan na západě a žluté řeky na východ. Hory Helan měří 150 kilometrů (93 mil) dlouhých a 30 kilometrů (19 mil) širokých s vrcholky ve výšce 3 556 metrů nad hladinou moře."
 },{
     "id": "chaj-kchou",
     "city": "Chaj-kchou",
     "peoples": 9171300,
-    "sign": "",
-    "text": "Hainan"
+    "sign": "haikou.jpg",
+    "text": "Chaj-kchou je městská prefektura v Čínské lidové republice, hlavní a největší město provincie Chaj-nan ležící na stejnojmenném ostrově. Na celkové rozloze 2 237 čtverečních kilometrů žilo v roce 2010 přes dva milióny obyvatel, přičemž přes 97 % obyvatel tvoří Chanové."
 },{
     "id": "ürümqi",
     "city": "Ürümqi",
     "peoples": 1664897,
     "sign": "mqi.jpg",
-    "text": "Urumči, coby hlavní a největší město provincie Xinjiang (Sin-ťiang), není z historického hlediska příliš významným místem. Bývalo dříve spíše malým městečkem, které se po dostavění železnice z Pekingu v r. 1963 stalo moderním průmyslovým městem převážně s hanským (chan) obyvatelstvem, a příliš se neliší od měst na východě Číny. Město je nicméně zajímavé spíše svou polohou, nejen proto, že se nachází nedaleko krásných hor Bogdafeng, ale hlavně tím, že si nárokuje prvenství jako „město nejdále vzdálené od moře“. Uvádí se, že nejbližší vzdálenost Urumči k moři činí 2250 km. I přes poměrně moderní centrum města zde nalezneme množství ujgurských tržišť a restaurací s typickým místním jídlem."
-    
-    
+    "text": "Urumči, coby hlavní a největší město provincie Xinjiang (Sin-ťiang), není z historického hlediska příliš významným místem. Bývalo dříve spíše malým městečkem, které se po dostavění železnice z Pekingu v r. 1963 stalo moderním průmyslovým městem převážně s hanským (chan) obyvatelstvem, a příliš se neliší od měst na východě Číny. Město je nicméně zajímavé spíše svou polohou, nejen proto, že se nachází nedaleko krásných hor Bogdafeng, ale hlavně tím, že si nárokuje prvenství jako „město nejdále vzdálené od moře“. Uvádí se, že nejbližší vzdálenost Urumči k moři činí 2250 km. I přes poměrně moderní centrum města zde nalezneme množství ujgurských tržišť a restaurací s typickým místním jídlem."  
 },
 {
     "id": "xining",
     "city": "Xining",
     "peoples": 1664897,
-    "sign": "kunfuc.jpg",
-    "text": "Qinghai"
+    "sign": "xin.jpg",
+    "text": "Si-ning je městská prefektura a hlavní město provincie Čching-chaj na severozápadě Čínské lidové republiky. V minulosti bylo město důležitým obchodním uzlem, skrz vedla jedna z cest Hedvábné stezky. Ve městě je silné zastoupení národnostních menšin, především Chuejů a Tibeťanů."
+    
 },
 {
     "id": "lhasa",
@@ -141,56 +133,51 @@ let mesta = [{
     "id": "guangzhou",
     "city": "Guangzhou",
     "peoples": 113460000,
-    "sign": "",
-    "text": "Guangdong"
+    "sign": "guanz.jpg",
+    "text": "Podle legendy založilo město Kanton pět nesmrtelných, kteří přijeli z nebe na kozách a zachránili místní obyvatele od hladovění. Proto je také někdy Kanton nazýván Kozí město. Nicméně první skutečné zmínky o této oblasti jsou z r. 214 př.n.l., kdy císař Qin Shi Huang (Čchin Š’-chuang) poslal své oddíly směrem na jih, aby převzaly kontrolu nad oblastí směrem k moři. V r. 206 př.n.l. se ještě jako Panyu (Pchan-jü) stal hlavním městem velké říše Nanyue (Nan-jue), která zahrnovala i část severního Vietnamu, Laosu a Myanmaru. Později (111 př.n.l.) za vlády dynastie Han (Chan) bylo Panyu ustanoveno hlavním městem provincie Guang, z níž se název přenesl i na město, které je od té doby názýváno Guangzhou (Kuang-čou, zhou = provincie). Dnes se Panyu nazývá jen jedna, a to jižní část Kantonu."
 },{
     "id": "che-fej",
     "city": "Che-fej",
     "peoples": 59500510,
-    "sign": "",
-    "text": "Anhui"
+    "sign": "hefei.jpg",
+    "text": "Che-fej (čínsky pchin-jinem Héféi, znaky 合肥) je městská prefektura v Čínské lidové republice, správní středisko provincie An-chuej. Nachází se 130 km západně od Nankingu. Žije zde 4,5 mil. obyvatel.Hlavním chefejským letištěm je mezinárodní letiště Che-fej Sin-čchiao, které leží přibližně 30 kilometrů severozápadně od centra v okrese Fej-si a které bylo dokončeno v roce 2013 a do značné míry nahradilo starší letiště Che-fej Luo-kang sloužící od sedmdesátých let dvacátého století.V Che-feji se kříží několik vysokorychlostních tratí: Z východu na západ vede přes Che-fej vysokorychlostní trať Šanghaj – Wu-chan – Čcheng-tu, respektive její úseky Nanking – Che-fej a Che-fej – Wu-chan, na sever vede vysokorychlostní trať Che-fej – Peng-pu a na jih vysokorychlostní trať Che-fej – Fu-čou. Pro dopravu po městě samotném slouží zejména chefejské metro, jehož jediná linka 1 vede v severojižním směru, má délku bezmála 25 kilometrů, 23 stanic a byla otevřena v roce 2016. Ve výstavbě je linka 2.Městská prefektura Che-fej se člení na devět celků okresní úrovně, čtyři městské obvody, jeden městský okres a čtyři okresy. Vlastní městské jádro je tvořeno obvody Jao-chaj, Lu-jang, Šu-šan a Pao-che; obklopené je okresy Čchang-feng, Fej-tung, Fej-si a Lu-ťiang. Městský okres Čchao-chu tvoří satelitní město na východě prefektury."
 },{
     "id": "fuzhou",
     "city": "Fuzhou",
     "peoples": 38565000,
-    "sign": "",
-    "text": "Fujian"
+    "sign": "foochow.png",
+    "text": "Fu-čou (čínsky pchin-jinem Fúzhōu, znaky 福州) je hlavní a největší město čínské provincie Fu-ťien se statusem městské prefektury.Město je střediskem strojírenství, chemického, potravinářského, papírenského a textilního průmyslu. Hrubý domácí produkt (HDP) na hlavu roku 2008 dosáhl 33 615 ¥ (4 840 USD). Celkový HDP byl roku 2008 228,4 miliard ¥, při růstu 13 %.Fu-čou tvoří společně s prefekturou Ning-te na severovýchodě Fu-ťienu kulturní a jazykovou oblast Min-tung (闽东, doslova „východní Min“, Min je totiž starý název pro Fu-ťien).Přesné datum založení není známo. Po dobytí státu Jüe v dnešním Če-ťiangu státem Čchu roku 306 př. n. l. přišli do Fu-ťienu uprchlíci vedení členy královské rodiny Jüe a založili zde stát Min-jüe, roku 202 př. n. l. bylo do Fu-čou přeneseno hlavní město Min-jüe. Roku 110 př. n. l. obsadila Fu-ťien říše Chan. Ve 4. století po dobytí severní Číny kočovníky přišla do města vlna uprchlíků. Roku 725 za dynastie Tchang město získalo dnešní název. V letech 909–945 bylo centrem království Min. Za říše Sung bylo prosperujícím střediskem námořního obchodu i vzdělanosti, žili zde filozof Ču Si a básník Sin Čchi-ťi. V mingské éře bylo východiskem plateb Čeng Chea. Přední postavení mezi čínskými přístavy si uchovalo i v 19. století, kdy bylo jedním z pěti otevřených přístavů uvedených v Nankingské smlouvě."
 },{
     "id": "peking",
     "city": "Peking",
     "peoples": 21542000,
-    "sign": "",
-    "text": "Beijing"
+    "sign": "peking.jpg",
+    "text": "Peking se stal hlavním městem Číny poprvé v době vlády mongolské dynastie Yuan (Jüan), tj. ve 13. století. V té době se jmenoval Ta-tu a Evropa se s ním poprvé seznámila prostřednictvím slavného cestovatele Marca Pola, ale také prostřednictvím českého misionáře Oldřicha Čecha z Pordenone. Hlavním městem Číny byl pak po většinu vlády dynastie Ming a dynastie Qing (Čching). V r. 1911 se stal hlavním městem Čínské republiky. Pekingská vláda však byla slabá, a přestože byla jedinou čínskou vládou uznávanou světovými velmocemi, její pravomoc se omezovala na hlavní město a jeho nejbližší okolí. V r. 1928 uvolnila místo jihočínské vládě, která učinila svým hlavním městem Nanking."
 },{
     "id": "chongqing",
     "city": "Chongqing",
     "peoples": 28846170,
-    "sign": "",
-    "text": "Chongqing"
+    "sign": "chongqing.png",
+    "text": "Čchung-čching (též Čunking, čínsky pchin-jinem Chóngqìng, znaky zjednodušené 重庆, tradiční 重慶, anglicky Chongqing) je jedno ze čtyř přímo spravovaných měst na úrovni provincie v Čínské lidové republice. Leží na horním toku řeky Jang-c’-ťiang. K listopadu 2010 měl 28 846 200 obyvatel,[1] a v roce 2015 už 49,17 milionů[zdroj?] – což z něj činí nejlidnatější čínské město. Zahrnuje rozsáhlé venkovské oblasti. Vlastní městské osídlení má kolem 6–7 miliónů lidí, mnohem méně než u Šanghaje s 20 milióny lidí žijících v urbanizovaných oblastech.[2] Průměrná hustota zalidnění je proto pouze 350 obyvatel na km², pětkrát menší než např. Brna.Status přímo spravovaného města Čchung-čching získal 14. května 1997, do té doby byl jako subprovinční město součástí provincie S’-čchuan. Administrativně se Čchung-čching dělí na 19 městských obvodů, 15 okresů a 4 autonomní okresy.Je významným kulturním a historickým centrem S’-čchuanu, střediskem průmyslu a dopravní křižovatkou. V letech čínsko-japonské války (1937–1945) byl hlavním městem Čínské republiky. Významné je Muzeum Tří soutěsek.Město má vlastní městský strom – fíkovník (Ficus lacor) a městskou květinu kamélii japonskou (Camellia japonica)."
 },{
     "id": "kuej-jang",
     "city": "Kuej-jang",
     "peoples": 35550000,
-    "sign": "",
-    "text": "Guizhou"
+    "sign": "guiyang.jpg",
+    "text": "Kuej-jang (znaky zjednodušené 贵阳, pchin-jinem Guìyáng) je městská prefektura v Čínské lidové republice, hlavní město provincie Kuej-čou. Prefektura má rozlohu 8 034 km2 a žije zde přes 4 milióny obyvatel.V Čchien-lingské chovné stanici v současnosti v zajetí přežívá necelých 100 jedinců tygra jihočínského, kde byl jeho umělý chov zahájen v roce 1963.Kuej-jang leží uprostřed provincie Kuej-čou na východě Jünnansko-kuejčouské vysočiny, na severním břehu řeky Nan-ming, přítoku Wu-ťiang.Na severu sousedí Kuej-jang s Cun-i, na východě a jihu s Čchien-nanem, na jihozápadě s An-šunem a na západě s Pi-ťie.Mezinárodní letiště Kuej-jang Lung-tung-pao leží zhruba dvanáct kilometrů jihovýchodně od centra města v obvodě Nan-ming."
 },{
     "id": "nan-ning",
     "city": "Nan-ning",
     "peoples": 48680000,
-    "sign": "",
-    "text": "Guangxi"
-},{
-    "id": "si-ning",
-    "city": "Si-ning",
-    "peoples": 5834200,
-    "sign": "",
-    "text": "Qinghai"
+    "sign": "nanning.jpg",
+    "text": "Nan-ning (čínsky 南宁, pchin-jinem Nánníng) je městská prefektura v Čínské lidové republice, hlavní město autonomní oblasti Kuang-si.Celá městská prefektura má rozlohu 22 189 čtverečních kilometrů a v roce 2010 v ní žilo necelých šest milionů obyvatel.Nan-ning leží na severním břehu řeky Jung-ťiang, hlavního jižního přítoku Si-ťiangu.Hlavním nanningským letištěm je mezinárodní letiště Nan-ning Wu-sü, které leží přibližně dvaatřicet kilometrů jihozápadně od Nan-ningu u města Wu-sü."
 },{
     "id": "lanzhou",
     "city": "Lanzhou",
     "peoples": 25575254,
-    "sign": "",
-    "text": "Gansu"
+    "sign": "laz.jpg",
+    "text": "Lanzhou (Lan-čou), hlavní město provincie Gansu  (Kan-su), bývalo významným obchodním centrem na hedvábné cestěa jedním z posledních velkých měst na západní hranici čínského impéria, kudy proudily zástupy karavan s drahocenným nákladem. Mnoho se od těch dob změnilo a z malé, ale významné oázy se stalo po vzniku ČSR důležité průmyslové centrum celé severozápadní Číny. To se ovšem výrazně podepsalo na tváři a charakteru města, z jehož tisícileté tradice se nám dochovalo svědectví jen převážně ve formě menších artefaktů, které jsou uchovávány v Muzeu provincie Gansu."
+    
 }
 ];
 
@@ -205,13 +192,13 @@ let unesco = [
     "url": "http://whc.unesco.org/en/list/705"
 },
 {
-    "id": "kromeriz",
-    "locality": "Kroměříž: Arcibiskupský zámek a zahrady",
-    "vznik": 1998,
-    "unes": 1994,
-    "photo": "kromeriz.jpg",
-    "description": "Vznik a vývoj zámku je nerozlučně spjat s historií olomouckého biskupství, arcibiskupství a poddanské obce olomouckých biskupů. Interiéry zámku jsou bohatě zdobeny a vybaveny množstvím původního dobového zařízení. Za povšimnutí stojí Trůnní, Sněmovní a Manský sál, Lovecká síň, Carský salon, stará knihovna a letní byt. Obrazárna uchovává díla předních evropských malířů 15.-18. století (Tizian, Lucas Cranach st., Hans von Aachen, Paolo Veronese či Jan Breughel st.). Takzvaná Podzámecká zahrada byla původně jakousi zásobní zelinářskou a květinovou zahradou. V průběhu 17. století byla přeměněna na barokní zahradu a stala se jakýmsi plynulým pokračováním zámku. Devatenácté století proměnilo tuto  zahradu na stylový krajinářský park o rozloze 64 hektarů. Geometricky pravidelná je Květná zahrada s uměle navršenými jahodovými kopečky, čtvercovým i kulatým bludištěm a  stěnami stříhaných stromů a keřů. Za pozornost stojí Lví kašna a kašna Tritonů.",
-    "url": "https://www.unesco-czech.cz/kromeriz/predstaveni/#page_start"
+    "id": "ping",
+    "locality": "Ping Yao",
+    "vznik": "14. století",
+    "unes": 1997,
+    "photo": "ping.jpg",
+    "description": "Starověké město Ping Yao je dobře zachované starobylé město na úrovni kraje v Číně. Nachází se v kraji Ping Yao, v centrální provincii Shanxi, nemovitost zahrnuje tři části: celou oblast uvnitř zdí Ping Yao, chrám Shuanglin 6 km jihozápadně od krajského města a chrám Zhenguo 12 km severovýchodně od krajského města. Starobylé město Ping Yao si dobře zachovává historickou podobu krajských měst Hanů ve střední Číně od 14. do 20. století. Starověké město Ping Yao bylo založeno ve 14. století a má rozlohu 225 hektarů. Jedná se o kompletní stavební komplex zahrnující starobylé zdi, ulice a uličky, obchody, byty a chrámy. Svým uspořádáním dokonale odráží vývoj architektonického stylu a urbanistické plánování měst Han během více než pěti století. Zvláště od 19. do začátku 20. století bylo starobylé město Ping Yao finančním centrem celé Číny. Téměř 4 000 stávajících obchodů a tradičních obydlí ve městě, které jsou velkolepé a vynikající v ornamentu, svědčí o ekonomické prosperitě Ping Yao během století. S více než 2000 existujícími malovanými plastikami vyrobenými v dynastiích Ming a Qing byl chrám Shuanglin považován za „orientální uměleckou galerii malovaných plastik“. Svatyně Wanfo, Starověké město Ping Yao je vynikajícím příkladem měst Han v dynastiích Ming a Qing (od 14. do 20. století). Zachovává všechny rysy města Han, poskytuje ucelený obraz o kulturním, sociálním, ekonomickém a náboženském vývoji v čínské historii a má velký význam pro studium sociální formy, ekonomické struktury, vojenské obrany, náboženské víry, tradičního myšlení, tradiční etika a bytová forma.",
+    "url": "http://whc.unesco.org/en/list/812"
 },
 {
     "id": "tugendhat",
@@ -397,7 +384,7 @@ $(function(){
         $("#mapicka circle").css('fill','red');
         $(this).css('fill','yellow');
         let pamatka = unesco.find(item => {return item.id == id});
-        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v unesco je od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
+        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v seznamu unesco je zapsána od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
         $('#info').slideDown(1000);
     });   
 
