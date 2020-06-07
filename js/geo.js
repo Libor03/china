@@ -139,7 +139,7 @@ let mesta = [
     "id": "che-fej",
     "city": "Che-fej",
     "peoples": 59500510,
-    "sign": "hefei.jpg",
+    "sign": "hef.jpg",
     "text": "Che-fej (čínsky pchin-jinem Héféi, znaky 合肥) je městská prefektura v Čínské lidové republice, správní středisko provincie An-chuej. Nachází se 130 km západně od Nankingu. Žije zde 4,5 mil. obyvatel.Hlavním chefejským letištěm je mezinárodní letiště Che-fej Sin-čchiao, které leží přibližně 30 kilometrů severozápadně od centra v okrese Fej-si a které bylo dokončeno v roce 2013 a do značné míry nahradilo starší letiště Che-fej Luo-kang sloužící od sedmdesátých let dvacátého století.V Che-feji se kříží několik vysokorychlostních tratí: Z východu na západ vede přes Che-fej vysokorychlostní trať Šanghaj – Wu-chan – Čcheng-tu, respektive její úseky Nanking – Che-fej a Che-fej – Wu-chan, na sever vede vysokorychlostní trať Che-fej – Peng-pu a na jih vysokorychlostní trať Che-fej – Fu-čou. Pro dopravu po městě samotném slouží zejména chefejské metro, jehož jediná linka 1 vede v severojižním směru, má délku bezmála 25 kilometrů, 23 stanic a byla otevřena v roce 2016. Ve výstavbě je linka 2.Městská prefektura Che-fej se člení na devět celků okresní úrovně, čtyři městské obvody, jeden městský okres a čtyři okresy. Vlastní městské jádro je tvořeno obvody Jao-chaj, Lu-jang, Šu-šan a Pao-che; obklopené je okresy Čchang-feng, Fej-tung, Fej-si a Lu-ťiang. Městský okres Čchao-chu tvoří satelitní město na východě prefektury."
 },{
     "id": "fuzhou",
