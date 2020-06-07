@@ -169,7 +169,7 @@ let mesta = [
     "id": "nan-ning",
     "city": "Nan-ning",
     "peoples": 48680000,
-    "sign": "nanning.JPG",
+    "sign": "nan.jpg",
     "text": "Nan-ning (čínsky 南宁, pchin-jinem Nánníng) je městská prefektura v Čínské lidové republice, hlavní město autonomní oblasti Kuang-si.Celá městská prefektura má rozlohu 22 189 čtverečních kilometrů a v roce 2010 v ní žilo necelých šest milionů obyvatel.Nan-ning leží na severním břehu řeky Jung-ťiang, hlavního jižního přítoku Si-ťiangu.Hlavním nanningským letištěm je mezinárodní letiště Nan-ning Wu-sü, které leží přibližně dvaatřicet kilometrů jihozápadně od Nan-ningu u města Wu-sü."
 },{
     "id": "lanzhou",
