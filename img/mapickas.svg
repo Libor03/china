@@ -537,4 +537,33 @@
     <title
        id="title99-1-2-8">Cultural Landscape of Honghe Hani Rice Terraces</title>
   </circle>
+  <circle
+     style="fill:#ff0000;fill-rule:evenodd"
+     id="path97-4"
+     cx="372.44897"
+     cy="399.65985"
+     r="10.204082">
+    <title
+       id="title99-4">Dazu Rock Carvings</title>
+  </circle>
+  <circle
+     r="10.204082"
+     cy="615.64624"
+     cx="704.93195"
+     id="path97-4-8"
+     style="fill:#ff0000;fill-rule:evenodd">
+    <title
+       id="title99-4-4">Fujian Tulou</title>
+  </circle>
+  <circle
+     inkscape:transform-center-y="21.258503"
+     inkscape:transform-center-x="53.571429"
+     style="fill:#ff0000;fill-rule:evenodd"
+     id="path97-4-8-2"
+     cx="665.81628"
+     cy="647.95923"
+     r="10.204082">
+    <title
+       id="title99-4-4-1">Historic Centre of Macao</title>
+  </circle>
 </svg>
