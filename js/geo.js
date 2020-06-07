@@ -184,7 +184,7 @@ let mesta = [
 let unesco = [
 {
     "id": "komplex",
-    "locality": "Pohoří Wudang",
+    "nazev": "Starobylý komplex budov v Wudang Mountains",
     "vznik": "7. století",
     "unes": 1994,
     "photo": "budovy.jpg",
@@ -193,7 +193,7 @@ let unesco = [
 },
 {
     "id": "ping",
-    "locality": "Ping Yao",
+    "nazev": "Ancient City of Ping Yao",
     "vznik": "14. století",
     "unes": 1997,
     "photo": "ping.jpg",
@@ -201,62 +201,53 @@ let unesco = [
     "url": "http://whc.unesco.org/en/list/812"
 },
 {
-    "id": "tugendhat",
-    "locality": "Brno: Vila Tugendhat",
-    "vznik": 2001,
-    "unes": 1994,
-    "photo": "tugendhat.jpg",
-    "description": "Vila Tugendhat byla postavena v letech 1929-1930 pro manžele Tugendhatovy v Brně - Černých Polích. Projektováním domu byl pověřen jeden z nejvýznamnějších evropských architektů té doby Ludwig Mies van der Rohe. Architekt rozvrhl vilu do tří úrovní. Hlavní podlaží rozčlenil na vstupní, společenskou, pracovní a jídelní část. V suterénu byla prádelna, sklady, fotokomora a kotelna. Horní podlaží mělo obytný charakter, tj. byly zde ložnice, pokoje dětí a chůvy. Také zahrada byla součástí architektonického návrhu. V roce 1938 manželé Tugendhatovi emigrovali do švýcarského St. Gallen. Během války byl dům zabaven gestapem a při osvobozování Brna byl poničen. Provedené opravy a nevhodné úpravy se architektonické podstaty stavby naštěstí nedotkly. Dnes je přístupná veřejnosti jako muzeum.",
-    "url": "https://www.unesco-czech.cz/brno/predstaveni/#page_start"
+    "id": "anhui",
+    "nazev": "Starobylé vesnice v jižním Anhui - Xidi a Hongcunu",
+    "vznik": "14. století",
+    "unes": 2000,
+    "photo": "vilage.jpg",
+    "description": "Dvě tradiční vesnice Xidi a Hongcun si do značné míry zachovávají vzhled mimoměstských sídlišť typu, který během minulého století do značné míry zmizel nebo byl transformován. Jejich plán ulic, jejich architektura a dekorace a integrace domů s komplexními vodními systémy jsou jedinečnými dochovanými příklady. Xidi a Hongcun jsou dvě vynikající tradiční vesnice, které se nacházejí v okrese Yi, městě Huangshan v jižní provincii Anhui, s komerčními aktivitami jako primárním zdrojem příjmů, rodinnou a klanovou sociální organizací a dobře známou pro svou regionální kulturu. Celková dispozice, krajina, architektonická podoba, dekorace a stavební techniky si zachovávají původní rysy vesnic Anhui mezi 14. a 20. stoletím.",
+    "url": "http://whc.unesco.org/en/list/1002"
 },
 {
-    "id": "zelena-hora",
-    "locality": "Poutní kostel sv. Jana Nepomuckého na Zelené hoře",
-    "vznik": 1994,
-    "unes": 1994,
-    "photo": "zelena-hora.jpg",
-    "description": "Poutní kostel sv. Jana Nepomuckého byl založen počátkem 18. století. Je jedním z nejlepších projektů architekta Jana Blažeje Santiniho-Aichla (1677-1723) a zároveň nejoriginálnějším příkladem takzvané barokní gotiky. Kostel obklopuje ambit, který je s centrální stavbou kompozičně propojen. Celkově nevelký centrální kostel se vymyká jakémukoliv popisu. Jeho tvary dané komplikovanými průniky šesti kružnic ve tvaru pěticípé hvězdy spolu s virtuózní hrou světel a stínů v interiéru, tvarová osobitost a čistota exteriéru, to vše je dostatečným důvodem k jeho návštěvě.",
-    "url": "https://www.unesco-czech.cz/zdar-nad-sazavou/predstaveni/#page_start"
+    "id": "liangzhu",
+    "nazev": "Archaeological Ruins of Liangzhu City",
+    "vznik": "asi 3. století před naším letopočtem",
+    "unes": 2019,
+    "photo": "ruiny.jpg",
+    "description": "Archeologické ruiny Liangzhu (asi 3 300 - 2 300 BCE) se nacházejí v povodí řeky Yangtze na jihovýchodním pobřeží země a odhalují raný regionální stát s jednotným systémem víry založeným na pěstování rýže v pozdní neolitické Číně. Tato nemovitost se skládá ze čtyř oblastí - oblast Yaoshan Site, Area High-dam u Ústí údolí, Area Low-Dam na rovině a Area City Site. Tyto zříceniny jsou vynikajícím příkladem rané městské civilizace vyjádřené v hliněných památkách, urbanismu, systému ochrany vody a sociální hierarchii vyjádřené v diferencovaných pohřbech na hřbitovech v majetku.",
+    "url": "http://whc.unesco.org/en/list/1592"
 },
 {
-    "id": "morovy-sloup",
-    "locality": "Sloup Nejsvětější Trojice v Olomouci",
-    "vznik": 2000,
-    "unes": 1994,
-    "photo": "olomouc.webp",
-    "description": "Budování morových sloupů odstartoval Tridentský koncil, který tak dal období baroka jeden z výrazných rysů. Vzorem byl sloup na Piazza Santa Maria Maggiore v Římě, vztyčený roku 1614. Dobou svého vzniku v letech 1716-1754 patří olomoucký monument až k posledním příkladům této módní vlny. Ale svou výtvarnou koncepcí, bohatstvím figurální výzdoby a konečně i rozměry a výškou (35 m) se od všech podobných památek výrazně odlišuje. Sloup se po svém dokončení stal pro obyvatele města zdrojem nesmírné hrdosti, protože všichni, kdo se na jeho stavbě podíleli, byli občany Olomouce. Jeho vysvěcení 9. září se osobně účastnil tehdejší první pár monarchie, císařovna Marie Terezie se svým manželem Františkem I. Štěpánem Lotrinským.",
-    "url": "https://www.unesco-czech.cz/olomouc/predstaveni/#page_start"
+    "id": "tombs",
+    "nazev": "Hlavní města a hrobky starověkého království Koguryo",
+    "vznik": "1. století před naším letopočtem",
+    "unes": 2004,
+    "photo": "tomb.jpg",
+    "description": "Místo zahrnuje archeologické pozůstatky tří měst a 40 hrobek: Wunu Mountain City, Guonei City a Wandu Mountain City, 14 hrobek je císařských, 26 šlechticů. Všichni patří do kultury Koguryo, pojmenované po dynastii, která vládla nad částmi severní Číny a severní poloviny Korejského poloostrova od roku 277 př.nl do roku 668 nl. Horské město Wunu je jen částečně vykopáno. Guonei City, v moderním městě Ji'an, hrálo roli „podpůrného kapitálu“ poté, co se hlavní kapitál Koguryo přestěhoval do Pchjongjangu. Wandu Mountain City, jedno z hlavních měst království Koguryo, obsahuje mnoho pozůstatků včetně velkého paláce a 37 hrobek. Některé z hrobek vykazují ve svých komplikovaných stropech velkou vynalézavost, které jsou určeny k zastřešení širokých prostorů bez sloupů a nesení těžkých břemen kamenné nebo zemské hromady, která byla umístěna nad nimi.",
+    "url": "http://whc.unesco.org/en/list/1135"
 },
 {
-    "id": "litomysl",
-    "locality": "Litomyšl: Zámek a zámecký areál",
-    "vznik": 1999,
-    "unes": 1994,
-    "photo": "litomysl.jpg",
-    "description": "Renesanční zámek z druhé poloviny 16. století je významným dokladem arkádového zámku italského typu. Přes úpravy interiéru, především na konci 18. století, si stále uchoval téměř nedotčený vzhled z dob renesance, včetně unikátní sgrafitové výzdoby fasád a štítů. Dochovaly se také mnohé hospodářské budovy a zámecká zahrada. Zápisem tohoto komplexu na seznam UNESCO mu byl přiznán i jeho světově výjimečný význam. Ve své unikátně dochované celistvosti je dokonalou ukázkou umělecky cenné architektury. Je skvělým dokladem středoevropské šlechtické residence z období renesance, která si uchovala svou jedinečnost i po následných přeměnách ve stylu nových uměleckých směrů.",
-    "url": "https://www.unesco-czech.cz/litomysl/predstaveni/#page_start"
+    "id": "gardens",
+    "nazev": "Klasické zahrady Suzhou",
+    "vznik": "11. století",
+    "unes": 1997,
+    "photo": "gardens.jpg",
+    "description": "Klasický design čínské zahrady, který se snaží miniaturně obnovit přírodní krajinu, není nikde lépe ilustrován než v devíti zahradách v historickém městě Suzhou. Oni jsou obecně uznáváni jako mistrovská díla žánru. Zahrady pocházející z 11. až 19. století odrážejí ve svém pečlivém designu hluboký metafyzický význam přírodní krásy v čínské kultuře. The classical gardens of Suzhou, Jiangsu Province, China date back to the 6th century BCE when the city was founded as the capital of the Wu Kingdom. Inspired by these royal hunting gardens built by the King of the State of Wu, private gardens began emerging around the 4th century and finally reached the climax in the 18th century. Today, more than 50 of these gardens are still in existence, nine of which, namely the Humble Administrator’s Garden, Lingering Garden, Net Master’s Garden, the Mountain Villa with Embracing Beauty, the Canglang Pavilion, the Lion Grove Garden, the Garden of Cultivation, the Couple’s Garden Retreat, and the Retreat & Reflection Garden, are regarded as the finest embodiments of Chinese “Mountain and Water” gardens. The earliest of these, the Canglang Pavilionwas built in the early 11th century on the site of an earlier, destroyed garden. Conceived and built under the influence of the unconstrained poetic freehand style originally seen in traditional Chinese landscape paintings, they are noted for their profound merging of exquisite craftsmanship, artistic elegance and rich cultural implications. These gardens lend insight into how ancient Chinese intellectuals harmonized conceptions of aestheticism in a culture of reclusion within an urban living environment.",
+    "url": "http://whc.unesco.org/en/list/813"
 },
 {
-    "id": "trebic",
-    "locality": "Bazilika sv. Prokopa a židovská čtvrť",
-    "vznik": 2003,
-    "unes": 1994,
-    "photo": "trebic.jpg",
-    "description": "Původně byla bazilika sv. Prokopa zasvěcena Panně Marii, ale kvůli celkové devastaci během mnoha válek byl objekt více jak 200 let užíván výhradně ke světským účelům. Po obnově byla bazilika zasvěcena sv. Prokopovi a opět využívána církví. K nejcennějším částem baziliky patří krypta s původní, více než 700 let starou výdřevou stropu. Současnou podobu interiéru baziliky vytvořil Kamil Hilbert v letech 1924-1935. Třebíč kdysi patřila k významným střediskům židovské kultury na Moravě a unikátně zachovaná židovská čtvrť je němým svědectvím soužití Židů a křesťanů. Židovská čtvrť s hustou zástavbou zahrnuje více jak 120 obytných domů, které doplňují objekty bývalých židovských institucí - radnice, školy, rabinátu a chudobince. Zadní synagoga navíc nabízí ve své expozici dobové informace o historii židovské čtvrti. Přední synagoga dnes slouží jako modlitebna Československé církve husitské. Původní židovský hřbitov byl v 17. století přemístěn na severní svah kopce Hrádek, kde je dnes k vidění kolem 3 000 kamenných náhrobků, z nichž nejstarší pochází z roku 1631. Součástí hřbitova je také obřadní síň z roku 1903 s unikátně dochovaným interiérem, kde se dodnes  mohou provádět pohřební obřady podle starých židovských tradic.",
-    "url": "https://www.unesco-czech.cz/trebic/predstaveni/#page_start"
-},
-{
-    "id": "telc",
-    "locality": "Telč: Historické centrum",
-    "vznik": 1992,
-    "unes": 1994,
-    "photo": "telc.jpg",
-    "description": "Historické jádro města, uzavřené rybníky a branami, si udrželo po celá staletí svou osobitou tvář z časů Zachariáše z Hradce. Předně je to původní královská vodní tvrz z 13. století, založená na křižovatce obchodních cest, která získala, spolu s historickým jádrem města, svou dnešní podobu díky přestavbě ze 16. století. Rozsáhlý renesanční zámecký komplex pochází z dílny architekta B. Maggiho z Arogna. K zámku ještě přiléhá zajímavě dispozičně řešená zahrada s parkem. Uvnitř  zámku jistě každého zaujmou honosné interiéry s jedinečnou výzdobou, dobovým zařízením a cennými sbírkami. V bývalém purkrabství je dnes muzeum s etnografickými sbírkami a expozicí o historii města. Kromě zámku patří mezi nejvýznačnější telčské památky také náměstí s unikátním nenarušeným komplexem historických domů v renesančním a barokním stylu. Podloubí a průčelí těchto domů byla v drtivé většině stavěna podle jednotného plánu.",
-    "url": "https://www.unesco-czech.cz/telc/predstaveni/#page_start"
+    "id": "rice",
+    "nazev": "Kulturní krajina Honghe Hani rýžové terasy",
+    "vznik": "7. století",
+    "unes": 2013,
+    "photo": "rice.jpg",
+    "description": "Kulturní krajina Honghe Hani rýžové terasy v Číně pokrývá 16 603 hektarů v jižním Yunnanu. Vyznačuje se velkolepými terasami, které kaskádují dolů ze svahů tyčících se pohoří Ailao na břehy řeky Hong. Za posledních 1300 let si lidé Hani vyvinuli komplexní systém kanálů, které přivádějí vodu z zalesněných horských vrcholů na terasy. Rovněž vytvořili integrovaný zemědělský systém, který zahrnuje byvoly, skot, kachny, ryby a úhoře a podporuje produkci červené rýže, primární plodiny této oblasti. Obyvatelé uctívají slunce, měsíc, hory, řeky, lesy a další přírodní jevy, včetně ohně. Žijí v 82 vesnicích mezi horskými lesy a terasami. Na vesnicích jsou tradiční doškové „houby“. Na jižních březích řeky Hong v hornatém terénu jižního Yunnanu se terasy Honghe Hani Rice kaskádují dolů z prudkých svahů pohoří Ailao. Zavlažované terasy, vytesané z hustého lesa za posledních 1300 let, které sem migrovaly z dál na severozápad, podporují rýžová pole s výhledem na úzká údolí. Na některých místech je mezi dolními okraji lesa a dolním údolím až 3000 teras. Hani lidé reagovali na obtíže a příležitosti svého prostředí vysokých hor, úzkých údolí kříží roklemi, extrémně vysokých srážek (kolem 1400 mm) a subtropického údolí, vytvořili Hani z hustého lesa mimořádně komplexní systém zavlažování rýžové terasy, které teče kolem obrysů hor.",
+    "url": "http://whc.unesco.org/en/list/1111"
 },
 {
     "id": "holasovice",
-    "locality": "Holašovice - areál vesnice",
+    "nazev": "Holašovice - areál vesnice",
     "vznik": 1998,
     "unes": 1994,
     "photo": "holasovice.jpg",
@@ -265,7 +256,7 @@ let unesco = [
 },
 {
     "id": "cesky-krumlov",
-    "locality": "Státní hrad a zámek Český Krumlov",
+    "nazev": "Státní hrad a zámek Český Krumlov",
     "vznik": 1992,
     "unes": 1994,
     "photo": "cesky-krumlov.jpg",
@@ -274,7 +265,7 @@ let unesco = [
 },
 {
     "id": "kutna-hora",
-    "locality": "Historické jádro Kutné Hory s chrámem sv. Barbory a katedrálou Nanebevzetí Panny Marie v Sedlci",
+    "nazev": "Historické jádro Kutné Hory s chrámem sv. Barbory a katedrálou Nanebevzetí Panny Marie v Sedlci",
     "vznik": 1995,
     "unes": 1994,
     "photo": "kutna-hora.jpg",
@@ -283,7 +274,7 @@ let unesco = [
 },
 {
     "id": "kladruby",
-    "locality": "Kladruby nad Labem: Krajina pro chov koní v Kladrubech",
+    "nazev": "Kladruby nad Labem: Krajina pro chov koní v Kladrubech",
     "vznik": 2019,
     "unes": 1994,
     "photo": "kladruby.jpg",
@@ -292,7 +283,7 @@ let unesco = [
 },
 {
     "id": "praha-unesco",
-    "locality": "Praha - historické centrum",
+    "nazev": "Praha - historické centrum",
     "vznik": 1992,
     "unes": 1994,
     "photo": "praha.webp",
@@ -301,7 +292,7 @@ let unesco = [
 },
 {
     "id": "krusnohori",
-    "locality": "Hornický region Erzgebirge / Krušnohoří",
+    "nazev": "Hornický region Erzgebirge / Krušnohoří",
     "vznik": 2019,
     "unes": 1994,
     "photo": "krusnohori.webp",
@@ -384,7 +375,7 @@ $(function(){
         $("#mapicka circle").css('fill','red');
         $(this).css('fill','yellow');
         let pamatka = unesco.find(item => {return item.id == id});
-        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-info">${pamatka.locality} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v seznamu unesco je zapsána od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
+        $('#info').slideUp(1000, function(){$('#info').html(`<div class="col-12"><h2 id="mesta" class="bg-info">${pamatka.nazev} <small class="text-small">(Tato památka byla vytvořena v ${pamatka.vznik} a v seznamu unesco je zapsána od roku ${pamatka.unes})</small></h2></div><div class="col-4"><img src="img/${pamatka.photo}" class="img-fluid"></div><div class="col-8"><p>${pamatka.description}</p><p><a href="${pamatka.url}" target="_blank">Více informací: "${pamatka.url}"</a></p></div>`)});
         $('#info').slideDown(1000);
     });   
 
