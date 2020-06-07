@@ -136,7 +136,7 @@ let mesta = [
     "sign": "guanz.jpg",
     "text": "Podle legendy založilo město Kanton pět nesmrtelných, kteří přijeli z nebe na kozách a zachránili místní obyvatele od hladovění. Proto je také někdy Kanton nazýván Kozí město. Nicméně první skutečné zmínky o této oblasti jsou z r. 214 př.n.l., kdy císař Qin Shi Huang (Čchin Š’-chuang) poslal své oddíly směrem na jih, aby převzaly kontrolu nad oblastí směrem k moři. V r. 206 př.n.l. se ještě jako Panyu (Pchan-jü) stal hlavním městem velké říše Nanyue (Nan-jue), která zahrnovala i část severního Vietnamu, Laosu a Myanmaru. Později (111 př.n.l.) za vlády dynastie Han (Chan) bylo Panyu ustanoveno hlavním městem provincie Guang, z níž se název přenesl i na město, které je od té doby názýváno Guangzhou (Kuang-čou, zhou = provincie). Dnes se Panyu nazývá jen jedna, a to jižní část Kantonu."
 },{
-    "id": "che-fej",
+    "id": "chef",
     "city": "Che-fej",
     "peoples": 59500510,
     "sign": "hef.jpg",
