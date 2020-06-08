@@ -273,39 +273,84 @@ let unesco = [
     "url": "http://whc.unesco.org/en/list/1110"
 },
 {
-    "id": "kladruby",
-    "nazev": "Kladruby nad Labem: Krajina pro chov koní v Kladrubech",
-    "vznik": 2019,
+    "id": "potala",
+    "nazev": "Historický soubor paláce Potala v Lhase",
+    "vznik": "7. století",
     "unes": 1994,
-    "photo": "kladruby.jpg",
+    "photo": "lhasa.jpg",
     "description": "Kulturní krajina zahrnuje nejen hřebčín, ale okolní pastviny včetně uměle zbudovaných vodních kanálů a přímých komunikací lemovanými alejemi. Krajina je vynikajícím spojením díla přírody a člověka v zachovalé předindustriální podobě a reprezentuje významný fenomén lidské civilizace, kterým byl po staletí specializovaným chov ceremoniálních, reprezentativních koní. Hřebčín po staletí slouží k chovu tzv. starokladrubských běloušů, kteří představují celosvětově unikátní podobu barokního koně, který se nevyskytuje v žádném dalším hřebčíně světa.",
-    "url": "https://www.unesco-czech.cz/kladruby-nad-labem/predstaveni/#page_start"
+    "url": "http://whc.unesco.org/en/list/707"
 },
 {
-    "id": "praha-unesco",
-    "nazev": "Praha - historické centrum",
-    "vznik": 1992,
-    "unes": 1994,
-    "photo": "praha.webp",
-    "description": "Praha je nejvýznamnější městskou památkovou rezervací u nás. Historické jádro o rozloze 866 hektarů zahrnuje unikátní urbanistický celek Pražského hradu a Hradčan, Malé Strany včetně Karlova mostu, Starého Města s Josefovem (dochovaná část bývalého Židovského Města), Nového Města, Vyšehradu i jejich jednotlivé památky. Rozsáhle založené Nové Město v návaznosti na pozdější přestavby v nových stavebních slozích svědčí o umělecko-společenském a kulturním vlivu Prahy od středověku do současnosti.",
-    "url": "https://www.unesco-czech.cz/praha/predstaveni/#page_start"
+    "id": "dengfeng",
+    "nazev": "Historické památky Dengfengu v „Centru nebe a Země“",
+    "vznik": "484 před naším letopočtem",
+    "unes": 2010,
+    "photo": "den.jpg",
+    "description": "Hora Songshang je považována za centrální posvátnou horu Číny. Na úpatí této 1500 metrů vysoké hory, poblíž města Dengfeng v provincii Henan a rozprostřené přes kruh o rozloze 40 km, stojí osm shluků budov a míst, včetně tří bran Han Que - zbytky nejstarších náboženských budov v Čína - chrámy, Zhougong Sundial Platform a Dengfengova observatoř. Budovy postavené v průběhu devíti dynastií jsou odrazem různých způsobů vnímání středu nebe a Země a síly hory jako centra náboženské oddanosti. Historické památky Dengfengu zahrnují některé z nejlepších příkladů starověkých čínských budov věnovaných rituálu, vědě, technologii a vzdělávání.",
+    "url": "http://whc.unesco.org/en/list/1305"
 },
 {
-    "id": "krusnohori",
-    "nazev": "Hornický region Erzgebirge / Krušnohoří",
-    "vznik": 2019,
-    "unes": 1994,
-    "photo": "krusnohori.webp",
-    "description": "Díky více než 800 letům téměř soustavné těžby a zpracování rud vznikla v Krušných horách jedinečná hornická krajina s unikátními montánními památkami v nadzemí i podzemí a s hustou sítí horních měst. Dokládá obrovský vliv, který měla těžba a zpracování rud na obou stranách pohoří na rozvoj hornictví a hutnictví po celém světě, konkrétně přínosem světově významných vynálezů a inovací v oblasti báňských a hutních technologií. Na české straně se jedná o hornické krajiny Jáchymov, Abertamy – Boží Dar – Horní Blatná, Krupka, Mědník a Rudou věž smrti.",
-    "url": "https://www.unesco-czech.cz/krusnohori/predstaveni/#page_start"
-}
+    "id": "pek",
+    "nazev": "Císařské paláce dynastií Ming a Qing v Pekingu a Šen-jangu",
+    "vznik": "15. století",
+    "unes": 1987,
+    "photo": "pek.jpg",
+    "description": "Sídlo nejvyšší moci po více než pět století (1416-1911), Zakázané město v Pekingu, se svými upravenými zahradami a mnoha budovami (jejichž téměř 10 000 pokojů obsahuje nábytek a umělecká díla), představuje neocenitelné svědectví čínské civilizace během Ming a dynastie Qing. Císařský palác dynastie Čching v Šen-jangu se skládá ze 114 budov postavených v letech 1625–26 a 1783. Obsahuje důležitou knihovnu a svědčí o založení poslední dynastie, která vládla Číně, než rozšířila svou moc do středu země a přesunul kapitál do Pekingu. Tento palác se stal pomocným císařským palácem v Pekingu.",
+    "url": "http://whc.unesco.org/en/list/439"
+},
+
+{
+    "id": "ming",
+    "nazev": "Císařské hrobky dynastií Ming a Qing",
+    "vznik": "17. století",
+    "unes": 2000,
+    "photo": "ming.jpg",
+    "description": "Představuje přidání tří císařských hrobek dynastie Qing v Liaoningu k hrobům Ming napsaným v letech 2000 a 2003. Mezi tři císařské hrobky dynastie Čching v provincii Liaoning patří hrobka Yongling, hrobka Fuling a hrobka Zhaoling, všechny postaven v 17. století. Hroby, které byly postaveny pro zakládající císaře dynastie Čching a jejich předky, se řídí pravidly tradiční čínské geomantie a fengshui. Vyznačují se bohatou výzdobou kamenných soch a řezbářů a dlaždic s drakovými motivy, které ilustrují vývoj pohřební architektury dynastie Čching. Tyto tři hrobové komplexy a jejich četné budovy kombinují tradice zděděné z předchozích dynastií a nové rysy civilizace Manchu.",
+    "url": "http://whc.unesco.org/en/list/1004"
+},{
+    "id": "kaiping",
+    "nazev": "Císařské paláce dynastií Ming a Qing v Pekingu a Šen-jangu",
+    "vznik": "roce 1921",
+    "unes": 2007,
+    "photo": "skaip.jpg",
+    "description": "Kaiping Diaolou a vesnice mají Diaolou, vícepodlažní obranné vesnické domy v Kaipingu, které vykazují komplexní a okouzlující fúzi čínských a západních strukturálních a dekorativních forem. Odrážejí významnou roli emigrantů Kaipingů při rozvoji několika zemí v jižní Asii, Austrálii a Severní Americe na konci 19. a počátku 20. století. V seznamu jsou čtyři skupiny Diaolou a dvacet z nej symboličtějších skupin je zapsáno na seznamu. Tyto budovy mají tři podoby: komunální věže postavené několika rodinami a používané jako dočasné útočiště, obytné věže postavené jednotlivými bohatými rodinami a používané jako opevněné rezidence a strážní věže. Postaveno z kamene, pise, cihla nebo beton, tyto budovy představují komplexní a sebevědomé spojení mezi čínskými a západními architektonickými styly. Diaolou si zachovává harmonický vztah s okolní krajinou a svědčí o konečném rozkvětu místních stavebních tradic, které začaly v období Ming v reakci na místní banditérii.",
+    "url": "http://whc.unesco.org/en/list/1112"
+},{
+    "id": "kula",
+    "nazev": "Kulangsu, historické mezinárodní osídlení",
+    "vznik": "roce 1843",
+    "unes": 2017,
+    "photo": "kula.jpg",
+    "description": "Kulangsu je malý ostrov nacházející se na ústí řeky Chiu-plic, směrem k městu Xiamen. Otevřením obchodního přístavu v Xiamen v roce 1843 a založením ostrova jako mezinárodního osídlení v roce 1903 se tento ostrov u jižního pobřeží čínské říše náhle stal důležitým oknem pro čínsko-zahraniční burzy. Kulangsu je výjimečným příkladem kulturní fúze, která vznikla z těchto výměn, které zůstávají čitelné ve své městské struktuře. Existuje směs různých architektonických stylů včetně tradičního jižního fujianského stylu, západního klasického obrození a verandského koloniálního stylu. Nejvýjimečnějším svědectvím o fúzi různých stylistických vlivů je nové architektonické hnutí, styl Amoy Deco.",
+    "url": "http://whc.unesco.org/en/list/1541"
+},
+
+
+{
+    "id": "pek",
+    "nazev": "Císařské paláce dynastií Ming a Qing v Pekingu a Šen-jangu",
+    "vznik": "15. století",
+    "unes": 1987,
+    "photo": "pek.jpg",
+    "description": "Sídlo nejvyšší moci po více než pět století (1416-1911), Zakázané město v Pekingu, se svými upravenými zahradami a mnoha budovami (jejichž téměř 10 000 pokojů obsahuje nábytek a umělecká díla), představuje neocenitelné svědectví čínské civilizace během Ming a dynastie Qing. Císařský palác dynastie Čching v Šen-jangu se skládá ze 114 budov postavených v letech 1625–26 a 1783. Obsahuje důležitou knihovnu a svědčí o založení poslední dynastie, která vládla Číně, než rozšířila svou moc do středu země a přesunul kapitál do Pekingu. Tento palác se stal pomocným císařským palácem v Pekingu.",
+    "url": "http://whc.unesco.org/en/list/439"
+},{
+    "id": "pek",
+    "nazev": "Císařské paláce dynastií Ming a Qing v Pekingu a Šen-jangu",
+    "vznik": "15. století",
+    "unes": 1987,
+    "photo": "pek.jpg",
+    "description": "Sídlo nejvyšší moci po více než pět století (1416-1911), Zakázané město v Pekingu, se svými upravenými zahradami a mnoha budovami (jejichž téměř 10 000 pokojů obsahuje nábytek a umělecká díla), představuje neocenitelné svědectví čínské civilizace během Ming a dynastie Qing. Císařský palác dynastie Čching v Šen-jangu se skládá ze 114 budov postavených v letech 1625–26 a 1783. Obsahuje důležitou knihovnu a svědčí o založení poslední dynastie, která vládla Číně, než rozšířila svou moc do středu země a přesunul kapitál do Pekingu. Tento palác se stal pomocným císařským palácem v Pekingu.",
+    "url": "http://whc.unesco.org/en/list/439"
+},
 ];
 
 /* jQuery skript */
 $(function(){
 
     /* Skrytí všech SVG objektů circle - v tomto případě označujících na mapě památky UNESCO */
-    $("#mapicka circle").hide();
+//    $("#mapicka circle").hide();
     /* Ovládací přepínače, které zajišťují zobrazení nebo skrytí SVG objektů na mapě */
     /* Při změně stavu přepínače se skryjí / zobrazí obdélníky symbolizující krajská města */
     $("#mesta").on('change', function(){
