@@ -350,7 +350,7 @@ let unesco = [
 $(function(){
 
     /* Skrytí všech SVG objektů circle - v tomto případě označujících na mapě památky UNESCO */
-//    $("#mapicka circle").hide();
+    $("#mapicka circle").hide();
     /* Ovládací přepínače, které zajišťují zobrazení nebo skrytí SVG objektů na mapě */
     /* Při změně stavu přepínače se skryjí / zobrazí obdélníky symbolizující krajská města */
     $("#mesta").on('change', function(){
